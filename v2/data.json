@@ -1,197 +1,197 @@
 {
- "schema_version": "2.0",
- "example": false,
- "generated_at": "2026-10-15T14:50:00-04:00",
- "generated_by": "hook - real data from team files, Oct 15 2:50 PM ET",
- "first_sale": {
-  "target_date": null,
-  "next_gate": "po",
-  "gates": [
-   {
-    "id": "po",
-    "label": "lot-1 po placed",
-    "status": "open",
-    "source": "/workspace/minus-discovery/tally/DEADLINES.md",
-    "as_of": "2026-10-15T12:24:00-04:00"
-   },
-   {
-    "id": "stock",
-    "label": "stock received",
-    "status": "open",
-    "source": "/workspace/minus-discovery/tally/DEADLINES.md",
-    "as_of": "2026-10-15T12:24:00-04:00"
-   },
-   {
-    "id": "checkout",
-    "label": "store buyable ($35 free-ship checkout)",
-    "status": "open",
-    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/shopify-orders.md",
-    "as_of": "2026-10-15T13:25:00-04:00"
-   }
+  "schema_version": "2.0",
+  "example": false,
+  "generated_at": "2026-10-15T14:41:00-04:00",
+  "generated_by": "hook - real data from team files, Oct 15 2:50 PM ET",
+  "first_sale": {
+    "target_date": null,
+    "next_gate": "po",
+    "gates": [
+      {
+        "id": "po",
+        "label": "lot-1 po placed",
+        "status": "open",
+        "source": "/workspace/minus-discovery/tally/DEADLINES.md",
+        "as_of": "2026-10-15T12:24:00-04:00"
+      },
+      {
+        "id": "stock",
+        "label": "stock received",
+        "status": "open",
+        "source": "/workspace/minus-discovery/tally/DEADLINES.md",
+        "as_of": "2026-10-15T12:24:00-04:00"
+      },
+      {
+        "id": "checkout",
+        "label": "store buyable ($35 free-ship checkout)",
+        "status": "open",
+        "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/shopify-orders.md",
+        "as_of": "2026-10-15T13:25:00-04:00"
+      }
+    ],
+    "source": "/workspace/GOD-SQUAD-PLAN.md (roadmap: lot 1 bought Oct 17-22; no buyable date stated in any file)",
+    "as_of": "2026-10-15T14:50:00-04:00"
+  },
+  "scoreboard": [
+    {
+      "venture": "small grants ny (replies = logged replies only)",
+      "sent": 50,
+      "replies": 1,
+      "yes": 1,
+      "paid": 0,
+      "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/send-counts.csv + /workspace/side-venture/replies/kingmanor-draft.md + side-venture/ltv-tracker.md",
+      "as_of": "2026-10-15T12:35:00-04:00"
+    },
+    {
+      "venture": "nyc build bids (replies not logged)",
+      "sent": 50,
+      "replies": null,
+      "yes": null,
+      "paid": 0,
+      "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/send-counts.csv + /workspace/side-venture/ltv-tracker.md",
+      "as_of": "2026-10-15T12:35:00-04:00"
+    },
+    {
+      "venture": "pauca (store not live)",
+      "sent": null,
+      "replies": null,
+      "yes": null,
+      "paid": 0,
+      "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/shopify-orders.md",
+      "as_of": "2026-10-15T13:25:00-04:00"
+    }
   ],
-  "source": "/workspace/GOD-SQUAD-PLAN.md (roadmap: lot 1 bought Oct 17-22; no buyable date stated in any file)",
-  "as_of": "2026-10-15T14:50:00-04:00"
- },
- "scoreboard": [
-  {
-   "venture": "small grants ny (replies = logged replies only)",
-   "sent": 50,
-   "replies": 1,
-   "yes": 1,
-   "paid": 0,
-   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/send-counts.csv + /workspace/side-venture/replies/kingmanor-draft.md + side-venture/ltv-tracker.md",
-   "as_of": "2026-10-15T12:35:00-04:00"
-  },
-  {
-   "venture": "nyc build bids (replies not logged)",
-   "sent": 50,
-   "replies": null,
-   "yes": null,
-   "paid": 0,
-   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/send-counts.csv + /workspace/side-venture/ltv-tracker.md",
-   "as_of": "2026-10-15T12:35:00-04:00"
-  },
-  {
-   "venture": "pauca (store not live)",
-   "sent": null,
-   "replies": null,
-   "yes": null,
-   "paid": 0,
-   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/shopify-orders.md",
-   "as_of": "2026-10-15T13:25:00-04:00"
-  }
- ],
- "decisions": [
-  {
-   "id": "alpha-kill",
-   "question": "Oct 17: if Alpha has no written quote, kill it and run the fallback (Alpha 25 sets → Peixiong → waitlist only)?",
-   "slips_if_waiting": "no lot-1 PO; stock date slips about a week per week of delay",
-   "deadline": "2026-10-17T23:59:00-04:00",
-   "default_at_deadline": "Alpha killed; fallback order Alpha 30 → Alpha 25 → Peixiong 100/80 → waitlist only (no PO)",
-   "status": "open",
-   "source": "/workspace/minus-discovery/tally/oct17-kill-sheet.md + DEADLINES.md",
-   "as_of": "2026-10-15T12:45:00-04:00"
-  },
-  {
-   "id": "po-total",
-   "question": "Oct 21-22: lock the lot-1 path at the exact written all-in total (A Alpha 30 · B Peixiong · C waitlist only)?",
-   "slips_if_waiting": "no order; lume tranche cancelled this cycle; each day late = a day later at ARDI",
-   "deadline": "2026-10-21T23:59:00-04:00",
-   "default_at_deadline": "standing-yes only for ≤ cap after the written quote passes the QA gate; otherwise C (waitlist only)",
-   "status": "open",
-   "source": "/workspace/minus-discovery/tally/deposit-po-card-oct21.md",
-   "as_of": "2026-10-15T12:50:00-04:00"
-  },
-  {
-   "id": "kling",
-   "question": "Cancel Kling now (unused, no generations)?",
-   "slips_if_waiting": "renews at $8.80 on Nov 14",
-   "deadline": "2026-11-10T23:59:00-05:00",
-   "default_at_deadline": "unknown (team reminder routine set for Nov 10)",
-   "status": "open",
-   "source": "/workspace/minus-discovery/tally/DEADLINES.md + /workspace/TEAM-ASSETS.md",
-   "as_of": "2026-10-15T14:34:00-04:00"
-  },
-  {
-   "id": "venture-template",
-   "question": "Approve one Venture outreach template + lead filter once (replacing per-batch approval)?",
-   "slips_if_waiting": "each SGNY/Bids batch waits for a separate approval",
-   "deadline": null,
-   "default_at_deadline": "unknown",
-   "status": "open",
-   "source": "/workspace/GOD-SQUAD-PLAN.md",
-   "as_of": "2026-10-15T14:34:00-04:00"
-  },
-  {
-   "id": "zoho",
-   "question": "Do the 5-min Zoho READ re-auth + DMARC login?",
-   "slips_if_waiting": "Venture inbox stays send-only (replies can't be read by the team)",
-   "deadline": null,
-   "default_at_deadline": "unknown",
-   "status": "open",
-   "source": "/workspace/TEAM-ASSETS.md",
-   "as_of": "2026-10-15T14:34:00-04:00"
-  },
-  {
-   "id": "fiverr",
-   "question": "Open a Fiverr seller account for Flipper's $0 Linear/Notion→Sheets gig?",
-   "slips_if_waiting": "the digital gig can't be listed",
-   "deadline": null,
-   "default_at_deadline": "unknown",
-   "status": "open",
-   "source": "/workspace/GOD-SQUAD-PLAN.md",
-   "as_of": "2026-10-15T14:34:00-04:00"
-  },
-  {
-   "id": "basic-plan",
-   "question": "Switch Shopify to Basic plan and set $35 free shipping at publish?",
-   "slips_if_waiting": "store stays on Grow ($105/mo listed vs Basic $39 after the $1 intro); trial end unknown",
-   "deadline": null,
-   "default_at_deadline": "unknown ($35 free ship already queued as an at-publish step)",
-   "status": "open",
-   "source": "/workspace/dashboard/data.json + /workspace/minus-discovery/tally/DEADLINES.md",
-   "as_of": "2026-10-15T11:05:00-04:00"
-  }
- ],
- "cash": [
-  {
-   "cap": "first order (up to $350 if very secure)",
-   "cap_amount": 300,
-   "spent": 0,
-   "committed": 0,
-   "verified": false,
-   "source": "/workspace/minus-discovery/tally/tally-ledger.csv (Tally A187/A188, audit-log.md l.516-517); no lot-1 row, DEADLINES: nothing ordered",
-   "as_of": "2026-10-15T14:40:00-04:00"
-  },
-  {
-   "cap": "small bets (each)",
-   "cap_amount": 80,
-   "spent": 0,
-   "committed": 0,
-   "verified": false,
-   "source": "/workspace/minus-discovery/tally/tally-ledger.csv (Tally A187/A188, audit-log.md l.516-517); no row on the small-bets cap",
-   "as_of": "2026-10-15T14:40:00-04:00"
-  },
-  {
-   "cap": "api prepay",
-   "cap_amount": 40,
-   "spent": 38.11,
-   "committed": 0,
-   "verified": false,
-   "source": "/workspace/minus-discovery/tally/tally-ledger.csv (Tally A187/A188, audit-log.md l.516-517); Anthropic $10.89 unverified",
-   "as_of": "2026-10-15T14:40:00-04:00"
-  },
-  {
-   "cap": "paid to date, all (card $56.53 + Apple $97.00 + API $38.11; no cap)",
-   "cap_amount": null,
-   "spent": 191.64,
-   "committed": 0,
-   "verified": false,
-   "source": "/workspace/minus-discovery/tally/tally-ledger.csv (Tally A187/A188, audit-log.md l.516-517)",
-   "as_of": "2026-10-15T14:40:00-04:00"
-  }
- ],
- "blockers": [
-  {
-   "text": "Alpha written quote: 0 replies (kill date Oct 17)",
-   "owner": "oki",
-   "since": null,
-   "source": "/workspace/TEAM-ASSETS.md",
-   "as_of": "2026-10-15T14:34:00-04:00"
-  },
-  {
-   "text": "Stripe accounts under review 2-3 days: no charge possible before ≈Oct 17-20",
-   "owner": "venture",
-   "since": "2026-10-15T00:00:00-04:00",
-   "source": "/workspace/side-venture/launch/stripe-live-links.md",
-   "as_of": "2026-10-15T10:55:00-04:00"
-  },
-  {
-   "text": "Zoho READ re-auth pending: replies not visible to the team",
-   "owner": "erik",
-   "since": null,
-   "source": "/workspace/TEAM-ASSETS.md",
-   "as_of": "2026-10-15T14:34:00-04:00"
-  }
- ]
+  "decisions": [
+    {
+      "id": "alpha-kill",
+      "question": "Fri Oct 16 EOD: if Alpha has no written quote, kill it and run the fallback (Alpha 25 sets \u2192 Peixiong \u2192 waitlist only)?",
+      "slips_if_waiting": "no lot-1 PO; stock date slips about a week per week of delay",
+      "deadline": "2026-10-16T23:59:00-04:00",
+      "default_at_deadline": "Alpha killed; fallback order Alpha 30 \u2192 Alpha 25 \u2192 Peixiong 100/80 \u2192 waitlist only (no PO)",
+      "status": "open",
+      "source": "/workspace/minus-discovery/tally/oct17-kill-sheet.md + DEADLINES.md + Oki msg Oct 15 2:41 PM",
+      "as_of": "2026-10-15T14:41:00-04:00"
+    },
+    {
+      "id": "po-total",
+      "question": "Oct 21-22: lock the lot-1 path at the exact written all-in total (A Alpha 30 \u00b7 B Peixiong \u00b7 C waitlist only)?",
+      "slips_if_waiting": "no order; lume tranche cancelled this cycle; each day late = a day later at ARDI; real holiday PO deadline ~Nov 7-10 (Spark)",
+      "deadline": "2026-10-21T23:59:00-04:00",
+      "default_at_deadline": "standing-yes only for \u2264 cap after the written quote passes the QA gate; otherwise C (waitlist only)",
+      "status": "open",
+      "source": "/workspace/minus-discovery/tally/deposit-po-card-oct21.md + Oki msg Oct 15 2:41 PM",
+      "as_of": "2026-10-15T14:41:00-04:00"
+    },
+    {
+      "id": "kling",
+      "question": "Cancel Kling now (unused, no generations)?",
+      "slips_if_waiting": "renews at $8.80 on Nov 14",
+      "deadline": "2026-11-10T23:59:00-05:00",
+      "default_at_deadline": "unknown (team reminder routine set for Nov 10)",
+      "status": "open",
+      "source": "/workspace/minus-discovery/tally/DEADLINES.md + /workspace/TEAM-ASSETS.md",
+      "as_of": "2026-10-15T14:34:00-04:00"
+    },
+    {
+      "id": "venture-template",
+      "question": "Approve one Venture outreach template + lead filter once (replacing per-batch approval)?",
+      "slips_if_waiting": "each SGNY/Bids batch waits for a separate approval",
+      "deadline": null,
+      "default_at_deadline": "HOLD sends (no deadline)",
+      "status": "open",
+      "source": "/workspace/GOD-SQUAD-PLAN.md + Oki msg Oct 15 2:41 PM",
+      "as_of": "2026-10-15T14:41:00-04:00"
+    },
+    {
+      "id": "zoho",
+      "question": "Do the 5-min Zoho READ re-auth + DMARC login (ASAP)?",
+      "slips_if_waiting": "blocks reading Build Bids/SGNY replies",
+      "deadline": null,
+      "default_at_deadline": "none: stays blocked until done",
+      "status": "open",
+      "source": "/workspace/TEAM-ASSETS.md + Oki msg Oct 15 2:41 PM",
+      "as_of": "2026-10-15T14:41:00-04:00"
+    },
+    {
+      "id": "fiverr",
+      "question": "Open a Fiverr seller account for Flipper's $0 Linear/Notion\u2192Sheets gig?",
+      "slips_if_waiting": "the digital gig can't be listed",
+      "deadline": null,
+      "default_at_deadline": "skip (no deadline)",
+      "status": "open",
+      "source": "/workspace/GOD-SQUAD-PLAN.md + Oki msg Oct 15 2:41 PM",
+      "as_of": "2026-10-15T14:41:00-04:00"
+    },
+    {
+      "id": "basic-plan",
+      "question": "Switch Shopify to Basic plan and set $35 free shipping at publish?",
+      "slips_if_waiting": "store stays on Grow ($105/mo listed vs Basic $39 after the $1 intro); trial end unknown",
+      "deadline": null,
+      "default_at_deadline": "needed before first product goes live; $35 free ship queued at publish",
+      "status": "open",
+      "source": "/workspace/dashboard/data.json + /workspace/minus-discovery/tally/DEADLINES.md + Oki msg Oct 15 2:41 PM",
+      "as_of": "2026-10-15T14:41:00-04:00"
+    }
+  ],
+  "cash": [
+    {
+      "cap": "first order (up to $350 if very secure)",
+      "cap_amount": 300,
+      "spent": 0,
+      "committed": 0,
+      "verified": false,
+      "source": "/workspace/minus-discovery/tally/tally-ledger.csv (Tally A187/A188, audit-log.md l.516-517); no lot-1 row, DEADLINES: nothing ordered",
+      "as_of": "2026-10-15T14:40:00-04:00"
+    },
+    {
+      "cap": "small bets (each)",
+      "cap_amount": 80,
+      "spent": 0,
+      "committed": 0,
+      "verified": false,
+      "source": "/workspace/minus-discovery/tally/tally-ledger.csv (Tally A187/A188, audit-log.md l.516-517); no row on the small-bets cap",
+      "as_of": "2026-10-15T14:40:00-04:00"
+    },
+    {
+      "cap": "api prepay",
+      "cap_amount": 40,
+      "spent": 38.11,
+      "committed": 0,
+      "verified": false,
+      "source": "/workspace/minus-discovery/tally/tally-ledger.csv (Tally A187/A188, audit-log.md l.516-517); Anthropic $10.89 unverified",
+      "as_of": "2026-10-15T14:40:00-04:00"
+    },
+    {
+      "cap": "paid to date, all (card $56.53 + Apple $97.00 + API $38.11; no cap)",
+      "cap_amount": null,
+      "spent": 191.64,
+      "committed": 0,
+      "verified": false,
+      "source": "/workspace/minus-discovery/tally/tally-ledger.csv (Tally A187/A188, audit-log.md l.516-517)",
+      "as_of": "2026-10-15T14:40:00-04:00"
+    }
+  ],
+  "blockers": [
+    {
+      "text": "Alpha written quote: 0 replies (kill date Oct 17)",
+      "owner": "oki",
+      "since": null,
+      "source": "/workspace/TEAM-ASSETS.md",
+      "as_of": "2026-10-15T14:34:00-04:00"
+    },
+    {
+      "text": "Stripe accounts under review 2-3 days: no charge possible before \u2248Oct 17-20",
+      "owner": "venture",
+      "since": "2026-10-15T00:00:00-04:00",
+      "source": "/workspace/side-venture/launch/stripe-live-links.md",
+      "as_of": "2026-10-15T10:55:00-04:00"
+    },
+    {
+      "text": "Zoho READ re-auth pending: replies not visible to the team",
+      "owner": "erik",
+      "since": null,
+      "source": "/workspace/TEAM-ASSETS.md",
+      "as_of": "2026-10-15T14:34:00-04:00"
+    }
+  ]
 }
