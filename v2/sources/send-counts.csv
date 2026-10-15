@@ -1,0 +1,7 @@
+batch,status,count,note
+bids-batch.csv,dry-run,100,
+bids-batch.csv,sent,50,
+reply-kingmanor.csv,sent,1,
+sgny-batch.csv,dry-run,100,
+sgny-batch.csv,sent,50,
+t1.csv,sent,1,self-test to own inbox; excluded

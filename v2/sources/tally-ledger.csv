@@ -1,0 +1,14 @@
+date,item,venture,vendor,amount_usd,pay_method,cap,status,verified,source
+2026-10-13,pauca.shop domain (bill 604450911),pauca,Shopify,10.00,card,card,paid,true,tool-spend.md + dashboard data.json spend
+2026-10-14,smallgrantsny.com domain,Small Grants NY,Namecheap,11.18,card,card,paid,true,dashboard data.json spend
+2026-10-14,nycbuildbids.com domain (order 216718390),NYC Build Bids,Namecheap,11.18,card,card,paid,true,dashboard data.json spend
+2026-10-14,Zoho Mail Lite (1 yr),NYC Build Bids,Zoho,15.00,card,card,paid,true,tool-spend.md (Erik approved in chat)
+2026-10-14,ElevenLabs Starter first charge (then $6.53/mo),pauca,ElevenLabs,1.09,card,card,paid,false,tool-spend.md (no receipt found; may be the Shopify $1.09)
+2026-10-14,Kling AI Standard first month (renews $8.80 Nov 14),pauca,Kling,6.99,card,card,paid,false,tool-spend.md (plan page shows $8.80; charge unverified)
+2026-10-15,Shopify bill 605795393 ($1 plan + tax),pauca,Shopify,1.09,card,card,paid,true,tool-spend.md Tally A162
+2026-10-15,Perplexity Pro (iPhone app),all,Apple balance,20.00,apple-gift-card,apple-$175,paid,false,TEAM-PLAN (LIVE); price from apple-giftcard-plan list price
+2026-10-15,ChatGPT Plus (iPhone app),all,Apple balance,19.99,apple-gift-card,apple-$175,paid,false,TEAM-PLAN (LIVE); price from apple-giftcard-plan list price
+2026-10-15,Kimi Pro (iPhone app),all,Apple balance,39.00,apple-gift-card,apple-$175,paid,false,Erik in chat Oct 15 ($39 tier)
+2026-10-15,Manus Pro (amount not recorded),all,Apple balance,,apple-gift-card,apple-$175,paid,false,chat only; no amount in any file
+2026-10-15,Apple balance left per Erik,all,Apple balance,78.00,apple-gift-card,apple-$175,balance,true,Erik in chat Oct 15 ("$78 left on Apple credits")
+,OpenAI API prepay (planned),all,OpenAI,10.00,card,card,committed,false,Oki plan in chat; not yet bought

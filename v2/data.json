@@ -1,0 +1,152 @@
+{
+ "schema_version": "2.0",
+ "example": false,
+ "generated_at": "2026-10-15T13:25:00-04:00",
+ "generated_by": "oki (from box files + Shopify connector)",
+ "first_sale": {
+  "target_date": "2026-11-05",
+  "target_note": "ESTIMATE: PO Oct 22 + ~10 working days (Alpha); Tally A169 says sellable Nov 3-10",
+  "estimated": true,
+  "next_gate": "po",
+  "gates": [
+   {
+    "id": "po",
+    "label": "po placed (needs Alpha's written quote, under $350)",
+    "status": "open",
+    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
+    "as_of": "2026-10-15T13:25:00-04:00"
+   },
+   {
+    "id": "stock",
+    "label": "stock received",
+    "status": "open",
+    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
+    "as_of": "2026-10-15T13:25:00-04:00"
+   },
+   {
+    "id": "checkout",
+    "label": "$35 free-ship checkout live (still $70)",
+    "status": "open",
+    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
+    "as_of": "2026-10-15T13:25:00-04:00"
+   }
+  ],
+  "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
+  "as_of": "2026-10-15T13:25:00-04:00"
+ },
+ "scoreboard": [
+  {
+   "venture": "small grants ny + nyc build bids",
+   "sent": 101,
+   "replies": 1,
+   "yes": 1,
+   "paid": 0,
+   "note": "50 SGNY + 50 Bids + 1 King Manor reply; self-test excluded; replies = known (Zoho read scope missing)",
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/send-counts.csv",
+   "as_of": "2026-10-15T13:25:00-04:00"
+  },
+  {
+   "venture": "pauca (shopify)",
+   "sent": 0,
+   "replies": 0,
+   "yes": 0,
+   "paid": 0,
+   "note": "0 orders; 8 products DRAFT",
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/shopify-orders.md",
+   "as_of": "2026-10-15T13:25:00-04:00"
+  }
+ ],
+ "decisions": [
+  {
+   "id": "auto-send",
+   "question": "Approve one message template + lead filter so emails that pass the CAN-SPAM check and the suppression list send on their own (max 50/domain/day, all logged)?",
+   "slips_if_waiting": "every batch and reply keeps waiting on you; follow-ups to warm leads like King Manor go out late",
+   "deadline": "2026-10-16T12:00:00-04:00",
+   "default_at_deadline": "no auto-send; every batch keeps waiting for your yes",
+   "status": "open",
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
+   "as_of": "2026-10-15T13:25:00-04:00"
+  },
+  {
+   "id": "kling-cancel",
+   "question": "Cancel Kling now instead of by Nov 10?",
+   "slips_if_waiting": "nothing breaks; the $8.80 renewal on Nov 14 if it's forgotten",
+   "deadline": "2026-11-10T12:00:00-05:00",
+   "default_at_deadline": "team cancels by Nov 10 (already planned)",
+   "status": "open",
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/kling.md",
+   "as_of": "2026-10-15T13:25:00-04:00"
+  },
+  {
+   "id": "lot1-oct17",
+   "question": "If no written lot-1 quote under $350 lands by Oct 17, go waitlist-only (no order)?",
+   "slips_if_waiting": "first sale date, store launch, TikTok",
+   "deadline": "2026-10-17T12:00:00-04:00",
+   "default_at_deadline": "waitlist only, no PO, until a written quote under $350 lands",
+   "status": "open",
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
+   "as_of": "2026-10-15T13:25:00-04:00"
+  }
+ ],
+ "cash": [
+  {
+   "cap": "lot-1 first order",
+   "cap_amount": 350,
+   "spent": 0,
+   "committed": 0,
+   "verified": true,
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
+   "as_of": "2026-10-15T13:25:00-04:00"
+  },
+  {
+   "cap": "apple gift card",
+   "cap_amount": 175,
+   "spent": 97,
+   "committed": 0,
+   "verified": false,
+   "note": "$78 left per Erik (verified); line items Perplexity $20 + ChatGPT $19.99 + Kimi $39 + Manus (unrecorded) are estimates",
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
+   "as_of": "2026-10-15T13:25:00-04:00"
+  },
+  {
+   "cap": "card: tools + domains (no cap set)",
+   "cap_amount": null,
+   "spent": 56.53,
+   "committed": 10,
+   "verified": false,
+   "note": "$56.53 per Tally A162; ElevenLabs + Kling charges unverified; $10 = planned OpenAI API",
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
+   "as_of": "2026-10-15T13:25:00-04:00"
+  }
+ ],
+ "blockers": [
+  {
+   "text": "No written quote from Alpha (5 emails, 0 replies), so no PO",
+   "owner": "oki/tally",
+   "since": "2026-10-15T07:36:00-04:00",
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
+   "as_of": "2026-10-15T13:25:00-04:00"
+  },
+  {
+   "text": "Checkout free shipping still at $70; approved $35 is set at publish",
+   "owner": "oki",
+   "since": "2026-10-15T09:00:00-04:00",
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
+   "as_of": "2026-10-15T13:25:00-04:00"
+  },
+  {
+   "text": "Shopify Basic plan switch approved; you need to do it in Shopify Admin > Settings > Plan",
+   "owner": "erik",
+   "since": "2026-10-15T09:00:00-04:00",
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
+   "as_of": "2026-10-15T13:25:00-04:00"
+  },
+  {
+   "text": "Can't read replies on nycbuildbids@ (Zoho READ scope); Stripe review 2-3 days",
+   "owner": "venture",
+   "since": "2026-10-15T12:00:00-04:00",
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
+   "as_of": "2026-10-15T13:25:00-04:00"
+  }
+ ]
+}
