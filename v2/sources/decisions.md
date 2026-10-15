@@ -1,4 +1,4 @@
-# Open decisions for Erik (refreshed 2026-10-15T17:59:13-04:00)
+# Open decisions for Erik (refreshed 2026-10-15T18:34:05-04:00)
 Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker).
 - alpha-kill: Oct 16 noon US-imprint (Alpha) mail hold ends; Fri Oct 16 EOD (Oct 17 is Sat) written lot-1 quote under $350 or waitlist only / no PO (DEADLINES.md, oct17-kill-sheet.md). Fallback order: Alpha 30 plain, Alpha 25, Peixiong 100 DDP written under $350, waitlist only.
 - po-total: Oct 21 deposit terms in writing, Oct 22 PO target (DEADLINES.md, deposit-po-card-oct21.md).
@@ -6,7 +6,7 @@ Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard 
 - venture-template: VOID. Erik kill-switched the email ventures Oct 15 4:41 PM ET; Oct 16 8:05 AM batch CANCELLED (send/STOP + send.py guard). No venture sends. Card retired from dashboard.
 - hustle-etsy-tracker: APPROVED by Erik in chat Oct 15 5:29 PM ET (GitHub #14; in decided.json). $150 plan — Etsy Seller Profit & Fee Tracker (APPROVALS-TODAY-v2.md, Tally PASS). Pre-approved $11, $26 committed before first sale, ads only after organic at cost/sale <$8, $94 reserve. Break-even 3 sales; pass 8 by Nov 15 (3.76x); kill Nov 15. Erik creates Etsy/Gumroad/Notion accounts in his name.
 - zoho: DONE per reply sweep replies-2026-10-15.md (inboxes missing: none); Zoho READ resolved (repo commit f291d15).
-- Erik GitHub answers read this refresh: shopify-plan-basic APPROVE #3 Oct 15 11:33 AM ET (issue CLOSED); lot1-order APPROVE #4 Oct 15 11:40 AM ET (issue CLOSED); venture-template APPROVE #12 Oct 15 3:17 PM ET (issue CLOSED); po-total APPROVE #11 Oct 15 3:14 PM ET (issue OPEN) note: 'If this is the right thing to do then yes'; hustle-etsy-tracker APPROVE #14 Oct 15 5:29 PM ET (issue OPEN)
+- Erik GitHub answers read this refresh: shopify-plan-basic APPROVE #3 Oct 15 11:33 AM ET (issue CLOSED); lot1-order APPROVE #4 Oct 15 11:40 AM ET (issue CLOSED); venture-template APPROVE #12 Oct 15 3:17 PM ET (issue CLOSED); po-total APPROVE #11 Oct 15 3:14 PM ET (issue OPEN) note: 'If this is the right thing to do then yes'; hustle-etsy-tracker APPROVE #14 Oct 15 5:29 PM ET (issue CLOSED)
 - po-total: Erik APPROVE on #11 if present above (conditional note). Team executes only a written all-in quote under $350 that passes the QA gate; otherwise C (waitlist only). Not yet in decided.json.
 - fiverr: Fiverr seller account for Flipper's $0 Linear/Notion to Sheets gig (GOD-SQUAD-PLAN decision list #6). No deadline.
 Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) and $35 free shipping at publish are shown as blockers, not decisions.
