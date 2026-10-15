@@ -39,6 +39,7 @@ function render(d){
    const cap=c.cap_amount==null?NaN:+c.cap_amount,left=isNaN(cap)?null:Math.round((cap-(+c.spent||0)-(+c.committed||0))*100)/100;
    return `<tr class="${cls(c)}"><td>${esc(c.cap)}${c.cap_amount==null?"":` ($${esc(c.cap_amount)})`}<span class="tag">${c.verified?"verified":"estimated"}</span>${meta(c)}</td><td>${num(c.spent,c)}</td><td>${num(c.committed,c)}</td><td>${num(left,c)}</td></tr>`}).join("")+`</table>`;
   h+=`<h2>blockers</h2>`+(A(d.blockers).map(x=>`<div class="card ${cls(x)}">${esc(x.text)} <span class="meta">· ${esc(x.owner||"no owner")} · since ${esc(fmtT(x.since))}</span>${meta(x)}</div>`).join("")||`<div class="meta">none</div>`);
+  const cn=d.coach_notes;if(cn&&A(cn.items).length)h+=`<h2>coach notes</h2><div class="card ${cls(cn)}"><b>${esc(cn.title||"coach")}</b><ul>${A(cn.items).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>${cn.flag?`<div class="meta">${esc(cn.flag)}</div>`:""}${meta(cn)}</div>`;
   $("#app").innerHTML=h;
 }
 fetch("./data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(render)
