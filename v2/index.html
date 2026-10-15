@@ -8,6 +8,7 @@ main{max-width:760px;margin:0 auto;padding:16px}h2{font-size:13px;font-weight:60
 table{width:100%;border-collapse:collapse}td,th{text-align:right;padding:6px 4px;border-bottom:1px solid var(--ln)}td:first-child,th:first-child{text-align:left}th{font-weight:500;color:var(--mut);font-size:12px}
 .meta{font-size:11px;color:var(--mut)}.meta a{color:var(--mut)}.uns{color:var(--red);font-weight:600}.stale{opacity:.55}.stale .meta::after{content:" · stale >24h";color:var(--red)}
 .tag{font-size:11px;border:1px solid currentColor;padding:0 4px;margin-left:4px}.err{color:var(--red)}
+.btns{margin:8px 0}.btn{display:inline-block;padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:600;margin:4px 6px 4px 0}.btn.ok{background:#1a7f37;color:#fff}.btn.alt{background:#eee;color:#222;border:1px solid #ccc}
 </style></head><body><div id="banner">loading…</div><main id="app"></main>
 <script>
 const $=s=>document.querySelector(s),esc=v=>String(v??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -33,7 +34,7 @@ function render(d){
   const dec=A(d.decisions).filter(x=>x.status!=="resolved").slice(0,3);
   h+=`<h2>decisions (${dec.length})</h2>`+(dec.length?dec.map(c=>`<div class="card ${cls(c)}"><b>${esc(c.question)}</b> <span class="tag">yes / no</span>
    <div>if you wait: ${esc(c.slips_if_waiting||"–")}</div><div>deadline: ${c.deadline?esc(fmtT(c.deadline)):"unknown"}</div>
-   <div>default at deadline: ${esc(c.default_at_deadline||"–")}</div>${meta(c)}</div>`).join(""):`<div class="meta">nothing to decide</div>`);
+   <div>default at deadline: ${esc(c.default_at_deadline||"–")}</div>${btns(c)}${meta(c)}</div>`).join(""):`<div class="meta">nothing to decide</div>`);
   const nx=A(d.decisions).filter(x=>x.status!=="resolved").slice(3);if(nx.length)h+=`<div class="meta"><b>next up:</b><ul>${nx.map(x=>`<li>${esc(x.question)}</li>`).join("")}</ul></div>`;
   h+=`<h2>cash</h2><table><tr><th>cap</th><th>spent</th><th>committed</th><th>left</th></tr>`+A(d.cash).map(c=>{
    const cap=c.cap_amount==null?NaN:+c.cap_amount,left=isNaN(cap)?null:Math.round((cap-(+c.spent||0)-(+c.committed||0))*100)/100;
@@ -42,6 +43,16 @@ function render(d){
   const cn=d.coach_notes;if(cn&&A(cn.items).length)h+=`<h2>coach notes</h2><div class="card ${cls(cn)}"><b>${esc(cn.title||"coach")}</b><ul>${A(cn.items).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>${cn.flag?`<div class="meta">${esc(cn.flag)}</div>`:""}${meta(cn)}</div>`;
   $("#app").innerHTML=h;
 }
-fetch("./data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(render)
+function btns(c){return c.approve_url?`<div class="btns"><a class="btn ok" target="_blank" rel="noopener" href="${esc(c.approve_url)}">${esc(c.approve)}</a> <a class="btn alt" target="_blank" rel="noopener" href="${esc(c.decline_url)}">${esc(c.decline)}</a><div class="meta">opens GitHub: tap the green Submit button</div></div>`:""}
+function ghDecisions(d){const R="https://github.com/erikhuovi13/pauca-dashboard/issues/";
+ return fetch("https://api.github.com/repos/erikhuovi13/pauca-dashboard/issues?labels=decision&state=all&per_page=100").then(r=>r.ok?r.json():[]).then(is=>{
+  const ans=is.filter(i=>/^(APPROVE|NOT NOW|DECISION):/.test(i.title||"")), body=ans.map(i=>i.body||"").join(" ");
+  const done=new Set([...body.matchAll(/decision-id:\s*([\w-]+)/g)].map(m=>m[1])), refd=new Set([...body.matchAll(/Re #(\d+)/g)].map(m=>+m[1]));
+  d.decisions=A(d.decisions).map(c=>done.has(c.id)||(c.issue&&refd.has(c.issue))?{...c,status:"resolved"}:c);
+  const have=new Set(A(d.decisions).map(c=>c.issue).filter(Boolean));
+  is.filter(i=>i.state==="open"&&!i.pull_request&&!ans.includes(i)&&!have.has(i.number)&&!refd.has(i.number)).forEach(i=>{const c={id:"issue-"+i.number,issue:i.number,question:i.title,slips_if_waiting:"see issue #"+i.number,default_at_deadline:"see issue",status:"open",source:i.html_url,approve:"Approve",decline:"Not now"};
+   const u=k=>R+"new?title="+encodeURIComponent(k+": "+i.title)+"&body="+encodeURIComponent(k+": "+i.title+"\nRe #"+i.number+"\n\ndecision-id: issue-"+i.number+"\n\nNotes (optional):\n")+"&labels=decision";
+   c.approve_url=u("APPROVE");c.decline_url=u("NOT NOW");d.decisions.unshift(c)});return d}).catch(()=>d)}
+fetch("./data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(d=>{render(d);return ghDecisions(d).then(render)})
  .catch(e=>{$("#banner").innerHTML=`<span class="err">could not load data.json (${esc(e.message)})</span>`});
 </script></body></html>

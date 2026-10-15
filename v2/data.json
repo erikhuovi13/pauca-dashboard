@@ -1,7 +1,7 @@
 {
  "schema_version": "2.0",
  "example": false,
- "generated_at": "2026-10-15T15:04:46-04:00",
+ "generated_at": "2026-10-15T15:09:06-04:00",
  "generated_by": "oki v2 refresh (gen_v2.py, from box files + Shopify connector; Hook design, Pip/Muse audit)",
  "first_sale": {
   "target_date": null,
@@ -14,25 +14,25 @@
     "label": "lot-1 po placed (needs written quote under $350)",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/DEADLINES.md",
-    "as_of": "2026-10-15T15:04:46-04:00"
+    "as_of": "2026-10-15T15:09:06-04:00"
    },
    {
     "id": "stock",
     "label": "stock received",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
-    "as_of": "2026-10-15T15:04:46-04:00"
+    "as_of": "2026-10-15T15:09:06-04:00"
    },
    {
     "id": "checkout",
     "label": "store buyable ($35 free-ship checkout)",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/shopify-orders.md",
-    "as_of": "2026-10-15T15:04:46-04:00"
+    "as_of": "2026-10-15T15:09:06-04:00"
    }
   ],
   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
-  "as_of": "2026-10-15T15:04:46-04:00"
+  "as_of": "2026-10-15T15:09:06-04:00"
  },
  "scoreboard": [
   {
@@ -42,7 +42,7 @@
    "yes": 1,
    "paid": 0,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/send-counts.csv",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   },
   {
    "venture": "nyc build bids (replies not readable: Zoho)",
@@ -51,7 +51,7 @@
    "yes": null,
    "paid": 0,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/send-counts.csv",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   },
   {
    "venture": "pauca (store not live)",
@@ -60,10 +60,25 @@
    "yes": null,
    "paid": 0,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/shopify-orders.md",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   }
  ],
  "decisions": [
+  {
+   "id": "venture-template",
+   "question": "Approve one Venture outreach template + lead filter once (issue #9; 37 SGNY + 47 Bids held)?",
+   "slips_if_waiting": "each SGNY/Bids batch waits for a separate approval",
+   "deadline": null,
+   "default_at_deadline": "HOLD sends (no deadline)",
+   "status": "open",
+   "issue": 9,
+   "approve": "Approve template + filter",
+   "decline": "Hold",
+   "source": "https://github.com/erikhuovi13/pauca-dashboard/issues/9",
+   "as_of": "2026-10-15T15:09:06-04:00",
+   "approve_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=APPROVE%3A%20Approve%20one%20Venture%20outreach%20template%20%2B%20lead%20filter%20once%20%28issue%20%239%3B%2037%20SGNY%20%2B%2047%20Bids%20held%29%3F&body=APPROVE%3A%20Approve%20one%20Venture%20outreach%20template%20%2B%20lead%20filter%20once%20%28issue%20%239%3B%2037%20SGNY%20%2B%2047%20Bids%20held%29%3F%0ARe%20%239%0A%0Adecision-id%3A%20venture-template%0A%0ANotes%20%28optional%29%3A%0A&labels=decision",
+   "decline_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=NOT%20NOW%3A%20Approve%20one%20Venture%20outreach%20template%20%2B%20lead%20filter%20once%20%28issue%20%239%3B%2037%20SGNY%20%2B%2047%20Bids%20held%29%3F&body=NOT%20NOW%3A%20Approve%20one%20Venture%20outreach%20template%20%2B%20lead%20filter%20once%20%28issue%20%239%3B%2037%20SGNY%20%2B%2047%20Bids%20held%29%3F%0ARe%20%239%0A%0Adecision-id%3A%20venture-template%0A%0ANotes%20%28optional%29%3A%0A&labels=decision"
+  },
   {
    "id": "alpha-kill",
    "question": "Fri Oct 16 EOD: if Alpha has no written quote, kill it and run the fallback (Alpha 25 sets, then Peixiong, then waitlist only)?",
@@ -72,7 +87,11 @@
    "default_at_deadline": "Alpha killed; fallback order Alpha 30, Alpha 25, Peixiong 100/80, waitlist only (no PO)",
    "status": "open",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/oct17-kill-sheet.md",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00",
+   "approve_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=APPROVE%3A%20Fri%20Oct%2016%20EOD%3A%20if%20Alpha%20has%20no%20written%20quote%2C%20kill%20it%20and%20run%20the%20fallback%20%28Alpha%2025%20sets%2C%20then%20Peixiong%2C%20then%20waitlist%20only%29%3F&body=APPROVE%3A%20Fri%20Oct%2016%20EOD%3A%20if%20Alpha%20has%20no%20written%20quote%2C%20kill%20it%20and%20run%20the%20fallback%20%28Alpha%2025%20sets%2C%20then%20Peixiong%2C%20then%20waitlist%20only%29%3F%0A%0Adecision-id%3A%20alpha-kill%0A%0ANotes%20%28optional%29%3A%0A&labels=decision",
+   "decline_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=NOT%20NOW%3A%20Fri%20Oct%2016%20EOD%3A%20if%20Alpha%20has%20no%20written%20quote%2C%20kill%20it%20and%20run%20the%20fallback%20%28Alpha%2025%20sets%2C%20then%20Peixiong%2C%20then%20waitlist%20only%29%3F&body=NOT%20NOW%3A%20Fri%20Oct%2016%20EOD%3A%20if%20Alpha%20has%20no%20written%20quote%2C%20kill%20it%20and%20run%20the%20fallback%20%28Alpha%2025%20sets%2C%20then%20Peixiong%2C%20then%20waitlist%20only%29%3F%0A%0Adecision-id%3A%20alpha-kill%0A%0ANotes%20%28optional%29%3A%0A&labels=decision",
+   "approve": "Approve",
+   "decline": "Not now"
   },
   {
    "id": "po-total",
@@ -82,27 +101,18 @@
    "default_at_deadline": "standing-yes only for under-cap totals after the written quote passes the QA gate; otherwise C (waitlist only)",
    "status": "open",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/deposit-po-card-oct21.md",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00",
+   "approve_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=APPROVE%3A%20Oct%2021-22%3A%20lock%20the%20lot-1%20path%20at%20the%20exact%20written%20all-in%20total%20%28A%20Alpha%2030%2C%20B%20Peixiong%2C%20C%20waitlist%20only%29%3F&body=APPROVE%3A%20Oct%2021-22%3A%20lock%20the%20lot-1%20path%20at%20the%20exact%20written%20all-in%20total%20%28A%20Alpha%2030%2C%20B%20Peixiong%2C%20C%20waitlist%20only%29%3F%0A%0Adecision-id%3A%20po-total%0A%0ANotes%20%28optional%29%3A%0A&labels=decision",
+   "decline_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=NOT%20NOW%3A%20Oct%2021-22%3A%20lock%20the%20lot-1%20path%20at%20the%20exact%20written%20all-in%20total%20%28A%20Alpha%2030%2C%20B%20Peixiong%2C%20C%20waitlist%20only%29%3F&body=NOT%20NOW%3A%20Oct%2021-22%3A%20lock%20the%20lot-1%20path%20at%20the%20exact%20written%20all-in%20total%20%28A%20Alpha%2030%2C%20B%20Peixiong%2C%20C%20waitlist%20only%29%3F%0A%0Adecision-id%3A%20po-total%0A%0ANotes%20%28optional%29%3A%0A&labels=decision",
+   "approve": "Approve",
+   "decline": "Not now"
   },
   {
    "id": "kling",
-   "question": "Cancel Kling now (unused, no generations planned)?",
-   "slips_if_waiting": "renews at $8.80 on Nov 14",
-   "deadline": "2026-11-10T23:59:00-05:00",
-   "default_at_deadline": "team cancels by Nov 10 (reminder routine set)",
-   "status": "open",
+   "question": "DONE: Kling cancelled Oct 15 3:05 PM ET; no renewal, access + credits until Nov 14",
+   "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/kling.md",
-   "as_of": "2026-10-15T15:04:46-04:00"
-  },
-  {
-   "id": "venture-template",
-   "question": "Approve one Venture outreach template + lead filter once (issue #9; 37 SGNY + 47 Bids held)?",
-   "slips_if_waiting": "each SGNY/Bids batch waits for a separate approval",
-   "deadline": null,
-   "default_at_deadline": "HOLD sends (no deadline)",
-   "status": "open",
-   "source": "https://github.com/erikhuovi13/pauca-dashboard/issues/9",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   },
   {
    "id": "zoho",
@@ -112,7 +122,11 @@
    "default_at_deadline": "none: stays blocked until done",
    "status": "open",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00",
+   "approve_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=APPROVE%3A%20Do%20the%205-min%20Zoho%20READ%20re-auth%20%2B%20DMARC%20login%3F&body=APPROVE%3A%20Do%20the%205-min%20Zoho%20READ%20re-auth%20%2B%20DMARC%20login%3F%0A%0Adecision-id%3A%20zoho%0A%0ANotes%20%28optional%29%3A%0A&labels=decision",
+   "decline_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=NOT%20NOW%3A%20Do%20the%205-min%20Zoho%20READ%20re-auth%20%2B%20DMARC%20login%3F&body=NOT%20NOW%3A%20Do%20the%205-min%20Zoho%20READ%20re-auth%20%2B%20DMARC%20login%3F%0A%0Adecision-id%3A%20zoho%0A%0ANotes%20%28optional%29%3A%0A&labels=decision",
+   "approve": "Approve",
+   "decline": "Not now"
   },
   {
    "id": "fiverr",
@@ -122,7 +136,11 @@
    "default_at_deadline": "skip (no deadline)",
    "status": "open",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00",
+   "approve_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=APPROVE%3A%20Open%20a%20Fiverr%20seller%20account%20for%20Flipper%27s%20%240%20Linear%2FNotion%20to%20Sheets%20gig%3F&body=APPROVE%3A%20Open%20a%20Fiverr%20seller%20account%20for%20Flipper%27s%20%240%20Linear%2FNotion%20to%20Sheets%20gig%3F%0A%0Adecision-id%3A%20fiverr%0A%0ANotes%20%28optional%29%3A%0A&labels=decision",
+   "decline_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=NOT%20NOW%3A%20Open%20a%20Fiverr%20seller%20account%20for%20Flipper%27s%20%240%20Linear%2FNotion%20to%20Sheets%20gig%3F&body=NOT%20NOW%3A%20Open%20a%20Fiverr%20seller%20account%20for%20Flipper%27s%20%240%20Linear%2FNotion%20to%20Sheets%20gig%3F%0A%0Adecision-id%3A%20fiverr%0A%0ANotes%20%28optional%29%3A%0A&labels=decision",
+   "approve": "Approve",
+   "decline": "Not now"
   }
  ],
  "cash": [
@@ -134,7 +152,7 @@
    "verified": false,
    "note": "no lot-1 row in ledger; nothing ordered",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   },
   {
    "cap": "small bets (each)",
@@ -144,7 +162,7 @@
    "verified": false,
    "note": "no small-bet row in ledger",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   },
   {
    "cap": "api prepay",
@@ -153,7 +171,7 @@
    "committed": 0,
    "verified": false,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   },
   {
    "cap": "apple gift card",
@@ -163,7 +181,7 @@
    "verified": false,
    "note": "Erik: $78 left (verified)",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   },
   {
    "cap": "paid to date, all (card $56.53 + Apple $97.00 + API $38.11; no cap)",
@@ -172,7 +190,7 @@
    "committed": 0,
    "verified": false,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   }
  ],
  "blockers": [
@@ -181,28 +199,28 @@
    "owner": "oki",
    "since": "2026-10-15T07:36:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/DEADLINES.md",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   },
   {
    "text": "Shopify Basic plan switch approved; needs you in Shopify Admin > Settings > Plan. Free shipping still $70 until $35 is set at publish",
    "owner": "erik",
    "since": "2026-10-15T09:00:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   },
   {
    "text": "Stripe accounts under review 2-3 days: no charge possible before about Oct 17-20",
    "owner": "venture",
    "since": "2026-10-15T00:00:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   },
   {
    "text": "Zoho READ re-auth pending: replies not visible to the team",
    "owner": "erik",
    "since": null,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-   "as_of": "2026-10-15T15:04:46-04:00"
+   "as_of": "2026-10-15T15:09:06-04:00"
   }
  ],
  "coach_notes": {
@@ -213,6 +231,6 @@
   ],
   "flag": "Flag to Erik: none (no seat at 2 days zero, no doc redone >2, no tool cancel call due).",
   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/coach-notes.md",
-  "as_of": "2026-10-15T15:04:46-04:00"
+  "as_of": "2026-10-15T15:09:06-04:00"
  }
 }
