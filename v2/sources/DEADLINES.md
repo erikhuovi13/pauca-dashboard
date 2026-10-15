@@ -7,7 +7,7 @@
 
 | Date | Item | What slips if missed | Flag |
 |---|---|---|---|
-| **Oct 17 (Fri)** | **Quote kill date**: written quotes for stock glow blanks + marks, deposit %, glow video, Biwin mold fee, Italy hora freight, Nangong semel | No lume PO → stock date slips a week per week of delay; T1's $625 moves to reserve | **URGENT** |
+| **Fri Oct 16 EOD** (effective; Oct 17, 2026 is a Saturday, fixed by Oki audit run 17) | **Quote kill date**: written quotes for stock glow blanks + marks, deposit %, glow video, Biwin mold fee, Italy hora freight, Nangong semel | No lume PO → stock date slips a week per week of delay; T1's $625 moves to reserve | **URGENT** |
 | **Oct 17** | **Express quote ≤$2.50/set** in writing | Default to air DDP: ≈Nov 28–Dec 5 instead of ≈Nov 18–24 (−10 days of holiday selling) | **URGENT** |
 | **Oct 17–20** | **Agent-owned CJ login** (registration blocked on a password) | Dropship test (the fastest first sale, ≈4–8 days) slips day-for-day | **URGENT** |
 | **Oct 21 (Wed)** | **Deposit terms in writing** (30% deposit, balance held to video, Trade Assurance) | No order; the lume tranche is cancelled this cycle | **URGENT** |
@@ -17,7 +17,7 @@
 | Oct 28 | Google Workspace intro window opens (to Jan 28 2027) | Missing the window = standard price only | info |
 | **Oct 29** | **Mark Wei quote ZQ1692 expires** (dated Oct 14, "valid for 15 days", PDF) | Re-quote needed (custom-mold path only). Mark Wei now fails the QA gate (100% upfront, no glow photos), so this matters only if terms change | watch |
 | Nov 6 (if the waitlist goes live Oct 16) | **Waitlist 21-day line** (stop at 300+ sessions with no signal) | Keeps spending effort on a dead hook | watch |
-| **Nov 10** | **Cancel Kling** (renews $8.80 on Nov 14, tool-spend.md) | −$8.80 per month wasted | watch |
+| ~~Nov 10~~ | ~~Cancel Kling~~ **DONE Oct 15 3:05 PM ET**: cancelled, no renewal, credits run to Nov 14 (sunk $6.99) | none | done |
 | **Nov 13** | **Doris quote QT2026101406 expires** (30 days from Oct 14, PDF) | Re-quote; the exchange-rate clause (±3%) can move the price | watch |
 | Nov 14 | **Jin Sheu quote JS261000233 expires** (Oct 15 + 30 days validity) | Re-quote needed for the lot-2 comparison row (custom path only) | watch |
 | mid-Nov (≈Nov 15) | **China new-order deadline before CNY 2027** (lhwell; SEKO says finalize by Nov 28–Dec 12) | A reorder after this risks the Jan 9 – mid-March slowdown | plan |
@@ -33,3 +33,6 @@
 | per account | TikTok new-advertiser ladder: 30 days from ad-account creation | Don't create the ad account until the paid test is ready, or the clock is wasted | rule |
 
 > Oct 15 11:50 AM ET (A173): Spend is provisionally **$55.44**. The ElevenLabs $1.09 is unverified, with no receipt in Gmail or Outlook, and is likely the free tier.
+
+
+**Run 17 (Oki audit, Oct 15 ~4:55 PM ET):** email ventures (SGNY + NYC Build Bids) KILL-SWITCHED by Erik 4:41 PM; Oct 16 8:05 AM batch CANCELLED (send/STOP + send.py STOP guard, exit 2). No venture deadlines remain. Sunk $37.36 (A193).

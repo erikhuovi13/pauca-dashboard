@@ -34,3 +34,5 @@ Sources: first-lot-300-score-2026-10-15.md l.16–17, §1–2; alpha-deal-plan.m
 
 
 > **A183 update (Oct 15 12:42 PM ET):** Oki/Perplexity estimates: express freight $200-260 and duty 23.4% (HTS 3924.10.40 plus 301). The Peixiong 100-set lot is now $413-473 ($4.13-4.73/set) and the 80-set lot is $445-505. Both are **over the $350 cap and the $3.50 kill line**, so express Peixiong is dead for lot 1. It's sea or DDP lot-2 only. Alpha is the only lot-1 path, matching Erik's 12:33 lock.
+
+> **SUPERSEDED (Oki audit run 17, Oct 15 4:55 PM ET):** the A183 note above is stale. A185/A189 replace it: duty 15.9% base (3924.10.40), 25.3% stress (3926.90.99); 100 sets at $1.73 = $300–379, which fits $350 only with written DDP freight of about $137 or less (15.9%) or $130 or less (25.3%). Peixiong is a **conditional fallback**, not dead. Counter + DDP ask sent 2:42 PM; glow-clip/pack-of-4 follow-up still QUEUED (not sent).
