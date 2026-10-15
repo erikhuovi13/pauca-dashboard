@@ -2,3 +2,4 @@ date,batch,approved_by,source,note
 2026-10-15,sgny-batch.csv (50),Erik,relayed by Oki 11:56 AM,morning batch approval confirmed after the fact
 2026-10-15,bids-batch.csv (50),Erik,Venture chat 10:38 AM + Oki 11:56 AM,last 3 approved in chat; all 50 already sent by 9:43 AM
 2026-10-15,reply-kingmanor.csv (1),Erik,Venture chat 12:34 PM,warm reply to King Manor sent 12:35 PM
+2026-10-15,next-sgny-batch.csv (37) + next-bids-batch.csv (47),Erik,Venture chat 3:10 PM,template+lead filter approved (issue #9); sending Oct 16 8:05 AM due to 50/day/domain cap

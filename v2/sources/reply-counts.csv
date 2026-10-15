@@ -1,0 +1,9 @@
+venture,class,count,note
+bids,bounce,4,
+bids,other,10,
+sgny,auto-reply,2,
+sgny,bounce,1,
+sgny,delay,1,
+sgny,interested,1,
+sgny,other,4,
+generated,2026-10-15T16:33:57-04:00,,counted by gen_v2.py from side-venture/send/replies-2026-10-15.md (inboxes missing: none); replies = interested+question; yes = interested; no addresses copied
