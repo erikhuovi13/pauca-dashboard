@@ -1,0 +1,26 @@
+date,item,type,amount,source
+2026-10-15,hustle budget,budget,150.00,approvals-log.csv (Erik chat 5:29 PM)
+2026-10-15,Etsy shop opening fee,spent,29.00,Etsy setup (Erik paid; parent summary t524)
+2026-10-15,Etsy listing fees x4,spent,0.80,4 listings x $0.20 (live Oct 15)
+2026-10-15,B3 API hard cap,committed,10.00,APPROVALS-TODAY-v2 (Tally meter); envelope for api_est
+2026-10-15,API est OpenAI gpt-4o-mini Venture firstlines,api_est,0.0087,team-comms-log L120 ESTIMATE
+2026-10-15,API est OpenAI gpt-4o-mini Venture opinion,api_est,0.0004,team-comms-log L122 ESTIMATE
+2026-10-15,API est quote-scorer Claude+OpenAI+Gemini,api_est,0.45,team-comms-log L132 ESTIMATE worst-case ≤$0.45
+2026-10-15,API est price-tracker Claude Haiku (5 calls),api_est,0.0100,team-comms-log L142-146 ESTIMATE sum 0.0045+0.0046+0.0003+0.0003+0.0003
+2026-10-15,API est price-tracker OpenAI gpt-4.1-mini,api_est,0.0022,team-comms-log L147 ESTIMATE
+2026-10-15,API est price-tracker Gemini 2.5 Flash,api_est,0.0038,team-comms-log L148 ESTIMATE
+2026-10-15,API est OpenAI gpt-4o-mini Venture dashboard,api_est,0.001,team-comms-log L178 ESTIMATE
+2026-10-15,API est HUSTLE-MAP Gemini video reads,api_est,2.00,team-comms-log L188 ESTIMATE UNVERIFIED price
+2026-10-15,API est HUSTLE-MAP Claude extracts/map/audit,api_est,0.89,team-comms-log L188 ESTIMATE
+2026-10-15,API est HUSTLE-MAP OpenAI,api_est,0.04,team-comms-log L188 ESTIMATE
+2026-10-15,API est p1-tracker OpenAI gpt-5.5,api_est,0.126,team-comms-log L202 ESTIMATE
+2026-10-15,API est p1-tracker Claude Sonnet 5.5,api_est,0.170,team-comms-log L202 ESTIMATE
+2026-10-15,API est p1 revamp gpt-image+critiques OpenAI+Claude,api_est,1.00,team-comms-log L206 ESTIMATE ceiling <$1 UNVERIFIED
+2026-10-15,API est Perplexity Agent pro-search 8 queries,api_est,0.05,team-comms-log L209 ESTIMATE
+2026-10-15,API est ai-crew smoke google gemini-3.5-flash ping,api_est,0.0002,team-comms-log ESTIMATE
+2026-10-15,B3 API hard cap raise 10->25 (+15),committed,15.00,Erik APPROVED 7:24 PM ($30 total incl Gemini)
+2026-10-15,Gemini AI Studio prepay credit (~15),committed,15.00,Erik APPROVED 7:24 PM; pending browser purchase by Erik (no card entry by bots)
+2026-10-15,API est ai-crew cycles x3 + review rerun (Perplexity/Gemini/OpenAI/Claude),api_est,1.14,team-comms-log ai-crew lines ESTIMATE UNVERIFIED rates
+2026-10-15,API est ai-crew A-fee-calc google gemini-3.1-flash-lite propose UX spec (fallback lite),api_est,0.0004,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew C-pnl perplexity pro-search Etsy CSV formats,api_est,0.1120,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals anthropic claude-sonnet-5-5 art direction v1,api_est,0.1112,team-comms-log ESTIMATE
