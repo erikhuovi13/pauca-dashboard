@@ -32,11 +32,12 @@ function render(d){
    A(d.scoreboard).map(r=>`<tr class="${cls(r)}"><td>${esc(r.venture)}${meta(r)}</td>${["sent","replies","yes","paid"].map(k=>`<td>${num(r[k],r)}</td>`).join("")}</tr>`).join("")+`</table>`;
   const dec=A(d.decisions).filter(x=>x.status!=="resolved").slice(0,3);
   h+=`<h2>decisions (${dec.length})</h2>`+(dec.length?dec.map(c=>`<div class="card ${cls(c)}"><b>${esc(c.question)}</b> <span class="tag">yes / no</span>
-   <div>if you wait: ${esc(c.slips_if_waiting||"–")}</div><div>deadline: ${esc(fmtT(c.deadline))}</div>
+   <div>if you wait: ${esc(c.slips_if_waiting||"–")}</div><div>deadline: ${c.deadline?esc(fmtT(c.deadline)):"unknown"}</div>
    <div>default at deadline: ${esc(c.default_at_deadline||"–")}</div>${meta(c)}</div>`).join(""):`<div class="meta">nothing to decide</div>`);
+  const nx=A(d.decisions).filter(x=>x.status!=="resolved").slice(3);if(nx.length)h+=`<div class="meta"><b>next up:</b><ul>${nx.map(x=>`<li>${esc(x.question)}</li>`).join("")}</ul></div>`;
   h+=`<h2>cash</h2><table><tr><th>cap</th><th>spent</th><th>committed</th><th>left</th></tr>`+A(d.cash).map(c=>{
-   const cap=+c.cap_amount,left=isNaN(cap)?null:cap-(+c.spent||0)-(+c.committed||0);
-   return `<tr class="${cls(c)}"><td>${esc(c.cap)} ($${esc(c.cap_amount??"?")})<span class="tag">${c.verified?"verified":"estimated"}</span>${meta(c)}</td><td>${num(c.spent,c)}</td><td>${num(c.committed,c)}</td><td>${num(left,c)}</td></tr>`}).join("")+`</table>`;
+   const cap=c.cap_amount==null?NaN:+c.cap_amount,left=isNaN(cap)?null:Math.round((cap-(+c.spent||0)-(+c.committed||0))*100)/100;
+   return `<tr class="${cls(c)}"><td>${esc(c.cap)}${c.cap_amount==null?"":` ($${esc(c.cap_amount)})`}<span class="tag">${c.verified?"verified":"estimated"}</span>${meta(c)}</td><td>${num(c.spent,c)}</td><td>${num(c.committed,c)}</td><td>${num(left,c)}</td></tr>`}).join("")+`</table>`;
   h+=`<h2>blockers</h2>`+(A(d.blockers).map(x=>`<div class="card ${cls(x)}">${esc(x.text)} <span class="meta">· ${esc(x.owner||"no owner")} · since ${esc(fmtT(x.since))}</span>${meta(x)}</div>`).join("")||`<div class="meta">none</div>`);
   $("#app").innerHTML=h;
 }
