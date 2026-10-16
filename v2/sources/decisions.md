@@ -1,5 +1,5 @@
-# Open decisions for Erik (refreshed 2026-10-16T11:59:49-04:00)
-Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker, po-total).
+# Open decisions for Erik (refreshed 2026-10-16T13:26:27-04:00)
+Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker, po-total, alpha-kill).
 - alpha-kill: Oct 16 noon US-imprint (Alpha) mail hold ends; Fri Oct 16 EOD (Oct 17 is Sat) written lot-1 quote under $350 or waitlist only / no PO (DEADLINES.md, oct17-kill-sheet.md). Fallback order: Alpha 30 plain, Alpha 25, Peixiong 100 DDP written under $350, waitlist only.
 - po-total: Oct 21 deposit terms in writing, Oct 22 PO target (DEADLINES.md, deposit-po-card-oct21.md).
 - kling: team record: cancelled Oct 15 — UNVERIFIED; verify in Kling billing by Nov 10 (renews $8.80 Nov 14). (kling.md, Practice #8 item 2)
@@ -9,8 +9,9 @@ Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard 
 - Erik GitHub answers read this refresh: shopify-plan-basic APPROVE #3 Oct 15 11:33 AM ET (issue CLOSED); lot1-order APPROVE #4 Oct 15 11:40 AM ET (issue CLOSED); venture-template APPROVE #12 Oct 15 3:17 PM ET (issue CLOSED); po-total APPROVE #11 Oct 15 3:14 PM ET (issue CLOSED) note: 'If this is the right thing to do then yes'; hustle-etsy-tracker APPROVE #14 Oct 15 5:29 PM ET (issue CLOSED)
 - po-total: Erik APPROVE on #11 if present above (conditional note). Team executes only a written all-in quote under $350 that passes the QA gate; otherwise C (waitlist only). Not yet in decided.json.
 - fiverr: PARKED FYI — Erik Oct 16 10:07 AM no-template-plays rule; Linear/Notion-to-Sheets gig not proposed (dashboard/data.json fiverr fyi).
-Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is shown as a blocker. Free shipping: rule moved to orders over $40 (Erik Oct 16 10:44 AM; data.json freeship-40-fyi); live Admin/Hook still $35 until flip at publish (coach run 16).
-- Pre-pub gates (Practice #8 item 7): price trio $42 / founding $39 ON HOLD (drift vs Shopify drafts; Pip re-audit); product-copy gate open; policies = gate-5 BLOCKER (live REFUND_POLICY still offers 30-day returns; new drafts in ceo/policy-new-2026-10-16, Erik pastes into Shopify Policies).
+Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is shown as a blocker. Free shipping: $40 or more, live in checkout (Erik Oct 16 10:44 AM; verified 12:05 PM); live Shipping policy wording still "over $40" (Admin paste).
+- Pre-pub gates (Practice #8 item 7): price trio $42 / founding $39 ON HOLD (drift vs Shopify drafts; Pip re-audit); product-copy gate open; policies mostly PASS per 1:03 PM stack check (refund/ToS final-sale; privacy shows ARDI address, home address removed); shipping wording nit open.
 - Status: posting DECIDED hold until store live; Klaviyo send.pauca.shop VERIFIED, Activate parked to launch.
 - HWH felt ask SENT (Erik 10:30 AM / Oki inquiry 10:45; alibaba-send-log + coach run 16); Practice #6 still wants screenshot UNVERIFIED. Practice 10 AM audits DELIVERED 10:06 AM ET (#8).
-- Alpha: goods $7.56/set FAILS $3.50 kill line; survives only as priced speed exception under Erik #11.
+- Alpha: KILLED Oct 16 1:07 PM ET (ChatGPT said NO; Erik deferred). alpha-kill card retired (in decided.json). Reopen only if an unsolicited quote clears the $6/order floor and has a moat.
+- Felt: HWH ask UNCONFIRMED; Rongmei backup RFQ ~11:54 AM, reply promised Oct 17. Printful sample KILLED (no moat).
