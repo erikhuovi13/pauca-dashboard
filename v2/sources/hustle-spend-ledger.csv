@@ -24,3 +24,34 @@ date,item,type,amount,source
 2026-10-15,API est ai-crew A-fee-calc google gemini-3.1-flash-lite propose UX spec (fallback lite),api_est,0.0004,team-comms-log ESTIMATE
 2026-10-15,API est ai-crew C-pnl perplexity pro-search Etsy CSV formats,api_est,0.1120,team-comms-log ESTIMATE
 2026-10-15,API est ai-crew B-visuals anthropic claude-sonnet-5-5 art direction v1,api_est,0.1112,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-image-1 high bg desk1,api_est,0.2500,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-image-1 high bg desk3,api_est,0.2500,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-image-1 high bg desk2,api_est,0.2500,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-image-1 high bg pin1,api_est,0.2500,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew A-fee-calc anthropic claude-sonnet-5-5 build v1,api_est,0.4890,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew C-pnl anthropic claude-sonnet-5-5 formulas+build v1,api_est,0.4967,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-image-1 high bg pin2,api_est,0.2500,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-image-1 high bg pin4,api_est,0.2500,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-image-1 high bg pin3,api_est,0.2500,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-image-1 high bg pin5,api_est,0.2500,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-image-1 high bg wide1,api_est,0.2500,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-5.5 visual critique v1,api_est,0.1438,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals anthropic claude-sonnet-5-5 art direction v2,api_est,0.1453,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-image-1 high bg desk3_v2,api_est,0.2500,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-image-1 high bg pin5_v2,api_est,0.2500,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew B-visuals openai gpt-image-1 high bg pin3_v2,api_est,0.2500,team-comms-log ESTIMATE
+2026-10-15,Reel bets 2+3 (ElevenLabs already on existing plan renews 11-14; Veo $0 actual),approved,0.00,Erik chat 7:37 PM; Reel 7:39 PM
+2026-10-15,API est ai-crew smoke anthropic claude-sonnet-5-5 ping (stop=end_turn, out=18),api_est,0.0003,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew A-fee-calc anthropic claude-sonnet-5-5 build v1 (stop=end_turn, out=30395),api_est,0.4649,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew A-fee-calc openai gpt-5.5 code review v1,api_est,0.2406,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew A-fee-calc google gemini-3.5-flash UX critique v1,api_est,0.0107,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew C-pnl anthropic claude-sonnet-5-5 formulas+build v1 (stop=end_turn, out=46398),api_est,0.7127,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew C-pnl openai gpt-5.5 formula audit,api_est,0.2991,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew A-fee-calc anthropic claude-sonnet-5-5 revision v2 (stop=end_turn, out=26180),api_est,0.4578,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew C-pnl anthropic claude-sonnet-5-5 revision v2 (stop=end_turn, out=23620),api_est,0.4099,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew A-fee-calc openai gpt-5.5 code review v2,api_est,0.2216,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew A-fee-calc anthropic claude-sonnet-5-5 revision v3 (apply GPT review) (stop=end_turn, out=19363),api_est,0.3585,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew C-pnl openai gpt-5.5 formula audit v2,api_est,0.3856,team-comms-log ESTIMATE
+2026-10-15,DeepSeek API credit (external cap; kill 10-29 unless 3 bulk jobs >=$1 saved + 1 used),spent,5.00,Oki verified balance 8:03 PM
+2026-10-15,API est ai-crew C-pnl anthropic claude-sonnet-5-5 revision v3 (apply GPT audit) (stop=end_turn, out=30731),api_est,0.5382,team-comms-log ESTIMATE
+2026-10-15,eRank Basic monthly (Paddle via Link one-time card; cancel renewal before 11-15; export by 10-21; review 11-15),spent,6.52,Oki/Erik confirmed 8:30 PM (5.99+0.53 NYC tax)

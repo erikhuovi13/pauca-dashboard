@@ -6,4 +6,4 @@ sgny,bounce,1,
 sgny,delay,1,
 sgny,interested,1,
 sgny,other,4,
-generated,2026-10-15T19:29:30-04:00,,counted by gen_v2.py from side-venture/send/replies-2026-10-15.md (inboxes missing: none); replies = interested+question; yes = interested; no addresses copied
+generated,2026-10-15T21:04:23-04:00,,counted by gen_v2.py from side-venture/send/replies-2026-10-15.md (inboxes missing: none); replies = interested+question; yes = interested; no addresses copied
