@@ -1,9 +1,9 @@
-# Flipper coach notes (Run 8, Oct 15 2026, ~11:50 PM ET)
+# Flipper coach notes (Run 10, Oct 16 2026, ~2:55 AM ET)
 Excerpt from /workspace/coach/coach-log.md.
 
 Top ideas for the dashboard:
-- Ledgerly price cuts now
-- Erik code for POD app
+- Human unblocks this morning
+- stop single-browser dependency
 
 Flags to Erik:
-None immediate. 3h note to Erik includes FeeTruth sequencing slip + decisions (Printful tap, Alpha cutoff, Etsy paste).
+3h note (includes Muse silence still open, B3 alert, Alpha deadline today with felt fallback still Muse-blocked, J18 threshold fix).
