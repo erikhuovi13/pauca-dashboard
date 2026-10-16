@@ -3,5 +3,5 @@
 - Alpha: 5 emails sent, 0 replies; no more mail until a reply or Oct 16 noon ET.
 - Oct 17: quote kill (no written quote under $350 means waitlist only, no PO). Oct 21 deposit terms. Oct 22 PO (LAUNCH-CHECKLIST).
 - Alpha production about 10 working days after PO -> PO Oct 22 + 10 working days = Nov 5 (ESTIMATE).
-- Checkout free shipping still >= $70; Erik approved $35 at publish (decided.json: freeship-35).
+- Free shipping: Erik moved threshold to orders over $40 (Oct 16 10:44 AM; data.json freeship-40-fyi). Live Admin/Hook still $35 until flip at publish. (Prior: freeship-35 in decided.json.)
 - Shopify Basic plan switch approved (decided.json: shopify-plan-basic); Erik must do it in Admin.

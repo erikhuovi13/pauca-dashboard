@@ -1,4 +1,4 @@
-# Open decisions for Erik (refreshed 2026-10-16T10:31:15-04:00)
+# Open decisions for Erik (refreshed 2026-10-16T11:57:45-04:00)
 Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker, po-total).
 - alpha-kill: Oct 16 noon US-imprint (Alpha) mail hold ends; Fri Oct 16 EOD (Oct 17 is Sat) written lot-1 quote under $350 or waitlist only / no PO (DEADLINES.md, oct17-kill-sheet.md). Fallback order: Alpha 30 plain, Alpha 25, Peixiong 100 DDP written under $350, waitlist only.
 - po-total: Oct 21 deposit terms in writing, Oct 22 PO target (DEADLINES.md, deposit-po-card-oct21.md).
@@ -8,9 +8,9 @@ Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard 
 - zoho: DONE per reply sweep replies-2026-10-15.md (inboxes missing: none); Zoho READ resolved (repo commit f291d15).
 - Erik GitHub answers read this refresh: shopify-plan-basic APPROVE #3 Oct 15 11:33 AM ET (issue CLOSED); lot1-order APPROVE #4 Oct 15 11:40 AM ET (issue CLOSED); venture-template APPROVE #12 Oct 15 3:17 PM ET (issue CLOSED); po-total APPROVE #11 Oct 15 3:14 PM ET (issue CLOSED) note: 'If this is the right thing to do then yes'; hustle-etsy-tracker APPROVE #14 Oct 15 5:29 PM ET (issue CLOSED)
 - po-total: Erik APPROVE on #11 if present above (conditional note). Team executes only a written all-in quote under $350 that passes the QA gate; otherwise C (waitlist only). Not yet in decided.json.
-- fiverr: Fiverr seller account for Flipper's $0 Linear/Notion to Sheets gig (GOD-SQUAD-PLAN decision list #6). No deadline.
-Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is shown as a blocker. Free shipping: policy text $35 SOLID (Shopify read Oct 16 10:08 AM ET); checkout rate threshold verify in Admin before publish (Oki/Muse).
+- fiverr: PARKED FYI — Erik Oct 16 10:07 AM no-template-plays rule; Linear/Notion-to-Sheets gig not proposed (dashboard/data.json fiverr fyi).
+Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is shown as a blocker. Free shipping: rule moved to orders over $40 (Erik Oct 16 10:44 AM; data.json freeship-40-fyi); live Admin/Hook still $35 until flip at publish (coach run 16).
 - Pre-pub gates (Practice #8 item 7): price trio $42 / founding $39 ON HOLD (drift vs Shopify drafts; Pip re-audit); product-copy gate open; policies = gate-5 BLOCKER (live REFUND_POLICY still offers 30-day returns; new drafts in ceo/policy-new-2026-10-16, Erik pastes into Shopify Policies).
 - Status: posting DECIDED hold until store live; Klaviyo send.pauca.shop VERIFIED, Activate parked to launch.
-- HWH felt ask = Oki Alibaba send, held under Erik #5 double-check rule. Practice 10 AM audits DELIVERED 10:06 AM ET (#8).
+- HWH felt ask SENT (Erik 10:30 AM / Oki inquiry 10:45; alibaba-send-log + coach run 16); Practice #6 still wants screenshot UNVERIFIED. Practice 10 AM audits DELIVERED 10:06 AM ET (#8).
 - Alpha: goods $7.56/set FAILS $3.50 kill line; survives only as priced speed exception under Erik #11.
