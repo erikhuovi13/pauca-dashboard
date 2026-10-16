@@ -1,9 +1,10 @@
-# Flipper coach notes (Run 10, Oct 16 2026, ~2:55 AM ET)
+# Flipper coach notes (Run 11, Oct 16 2026, ~4:22 AM ET)
 Excerpt from /workspace/coach/coach-log.md.
 
 Top ideas for the dashboard:
-- Human unblocks this morning
-- stop single-browser dependency
+- Nudge Muse with exact payloads
+- stop low-value draft/research burn
 
 Flags to Erik:
-3h note (includes Muse silence still open, B3 alert, Alpha deadline today with felt fallback still Muse-blocked, J18 threshold fix).
+- **Muse silent escalation STILL OPEN** (~6h50m) → WakeParent: tell Erik (brief) + Oki post 4:28 nudge.
+- 3h note not due. No 2-day zero, no over-budget charge, no past-kill, no AUDIT breach, no kill-switch breach, no cancel-call due. Alpha Fri EOD with felt fallback still Muse-blocked (already known).
