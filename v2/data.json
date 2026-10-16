@@ -1,7 +1,7 @@
 {
  "schema_version": "2.0",
  "example": false,
- "generated_at": "2026-10-16T11:57:45-04:00",
+ "generated_at": "2026-10-16T11:59:49-04:00",
  "generated_by": "oki v2 refresh (gen_v2.py from box files + Shopify list-orders; Flipper coach; Hook design / Pip/Muse audit)",
  "first_sale": {
   "target_date": null,
@@ -14,46 +14,46 @@
     "label": "lot-1 po placed (needs written quote under $350)",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/DEADLINES.md",
-    "as_of": "2026-10-16T11:57:45-04:00"
+    "as_of": "2026-10-16T11:59:49-04:00"
    },
    {
     "id": "stock",
     "label": "stock received",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
-    "as_of": "2026-10-16T11:57:45-04:00"
+    "as_of": "2026-10-16T11:59:49-04:00"
    },
    {
     "id": "price",
     "label": "price trio $42 / founding $39: ON HOLD (drift vs Shopify drafts; Pip re-audit)",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-    "as_of": "2026-10-16T11:57:45-04:00"
+    "as_of": "2026-10-16T11:59:49-04:00"
    },
    {
     "id": "copy",
     "label": "product copy audited",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-    "as_of": "2026-10-16T11:57:45-04:00"
+    "as_of": "2026-10-16T11:59:49-04:00"
    },
    {
     "id": "policies",
     "label": "gate 5 BLOCKER: policies (live refund page still offers 30-day returns)",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-    "as_of": "2026-10-16T11:57:45-04:00"
+    "as_of": "2026-10-16T11:59:49-04:00"
    },
    {
     "id": "checkout",
     "label": "store buyable (free-ship rule $40; Admin/Hook still $35 until flip at publish)",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/shopify-orders.md",
-    "as_of": "2026-10-16T11:57:45-04:00"
+    "as_of": "2026-10-16T11:59:49-04:00"
    }
   ],
   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
-  "as_of": "2026-10-16T11:57:45-04:00"
+  "as_of": "2026-10-16T11:59:49-04:00"
  },
  "scoreboard": [
   {
@@ -63,7 +63,7 @@
    "yes": 1,
    "paid": 0,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/send-counts.csv",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "venture": "nyc build bids (KILL-SWITCHED Oct 15 4:41 PM; historical sent)",
@@ -72,7 +72,7 @@
    "yes": 0,
    "paid": 0,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/send-counts.csv",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "venture": "pauca (store not live)",
@@ -81,7 +81,7 @@
    "yes": null,
    "paid": 0,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/shopify-orders.md",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   }
  ],
  "decisions": [
@@ -93,7 +93,7 @@
    "default_at_deadline": "US imprint killed; fallback order 25-set bridge, then China DDP 100 under $350 written, else waitlist only (no PO)",
    "status": "open",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/oct17-kill-sheet.md",
-   "as_of": "2026-10-16T11:57:45-04:00",
+   "as_of": "2026-10-16T11:59:49-04:00",
    "approve_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=APPROVE%3A%20Fri%20Oct%2016%20EOD%3A%20if%20the%20US%20imprint%20bridge%20still%20has%20no%20written%20quote%20under%20%24350%2C%20kill%20that%20path%20and%20run%20the%20fallback%20%2825-set%20bridge%2C%20then%20China%20DDP%20100%20only%20with%20written%20all-in%20under%20%24350%2C%20else%20waitlist%20only%20%2F%20no%20PO%29%3F&body=APPROVE%3A%20Fri%20Oct%2016%20EOD%3A%20if%20the%20US%20imprint%20bridge%20still%20has%20no%20written%20quote%20under%20%24350%2C%20kill%20that%20path%20and%20run%20the%20fallback%20%2825-set%20bridge%2C%20then%20China%20DDP%20100%20only%20with%20written%20all-in%20under%20%24350%2C%20else%20waitlist%20only%20%2F%20no%20PO%29%3F%0A%0Adecision-id%3A%20alpha-kill%0A%0ANotes%20%28optional%29%3A%0A&labels=decision",
    "decline_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=NOT%20NOW%3A%20Fri%20Oct%2016%20EOD%3A%20if%20the%20US%20imprint%20bridge%20still%20has%20no%20written%20quote%20under%20%24350%2C%20kill%20that%20path%20and%20run%20the%20fallback%20%2825-set%20bridge%2C%20then%20China%20DDP%20100%20only%20with%20written%20all-in%20under%20%24350%2C%20else%20waitlist%20only%20%2F%20no%20PO%29%3F&body=NOT%20NOW%3A%20Fri%20Oct%2016%20EOD%3A%20if%20the%20US%20imprint%20bridge%20still%20has%20no%20written%20quote%20under%20%24350%2C%20kill%20that%20path%20and%20run%20the%20fallback%20%2825-set%20bridge%2C%20then%20China%20DDP%20100%20only%20with%20written%20all-in%20under%20%24350%2C%20else%20waitlist%20only%20%2F%20no%20PO%29%3F%0A%0Adecision-id%3A%20alpha-kill%0A%0ANotes%20%28optional%29%3A%0A&labels=decision",
    "approve": "Approve",
@@ -104,35 +104,35 @@
    "question": "APPROVED (Erik APPROVE on #14, Oct 15 5:29 PM ET): Approve $150 plan: Etsy Seller Profit & Fee Tracker.",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/issues/14",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "id": "po-total",
    "question": "APPROVED (Erik APPROVE on #11, Oct 15 3:14 PM ET; his note: 'If this is the right thing to do then yes'): Oct 21-22: lock the lot-1 path at the exact written all-in total (A Alpha 30, B Peixiong, C waitlist only). Team executes only a written all-in quote under $350 that passes the QA gate; otherwise C (waitlist only).",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/issues/11",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "id": "kling",
    "question": "Kling: team record says cancelled Oct 15, UNVERIFIED (no billing proof filed). Verify in Kling billing by Nov 10 or it renews $8.80 Nov 14",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/kling.md",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "id": "zoho",
    "question": "DONE: Zoho READ works; both venture inboxes read in the replies-2026-10-15.md sweep",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/reply-counts.csv",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "id": "fiverr",
    "question": "PARKED (Erik Oct 16 10:07 AM no-template-plays): Fiverr Linear/Notion-to-Sheets gig not proposed",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   }
  ],
  "cash": [
@@ -144,7 +144,7 @@
    "verified": false,
    "note": "no lot-1 row in ledger; nothing ordered. Alpha goods $7.56/set FAILS $3.50 kill line; survives only as priced speed exception under Erik #11",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/issues/11",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "cap": "hustle budget (Etsy tracker plan, approved Oct 15 5:29 PM)",
@@ -154,7 +154,7 @@
    "verified": false,
    "note": "spend-ledger: cash spent $71.32 (Etsy+DeepSeek+eRank+Gemini $30); committed $25.00 (B3 API envelope $25); remaining $53.68; demand UNVERIFIED (Practice #13); tally P1/P2 Veo blocked $0",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/hustle-spend-ledger.csv",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "cap": "small bets (each)",
@@ -164,7 +164,7 @@
    "verified": false,
    "note": "no small-bet row in ledger",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "cap": "api prepay",
@@ -173,7 +173,7 @@
    "committed": 0,
    "verified": true,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "cap": "apple gift card",
@@ -183,7 +183,7 @@
    "verified": false,
    "note": "Erik: $78 left (verified)",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "cap": "paid to date, all: card $94.64 (incl. API $38.11) + Apple $97.00; no cap",
@@ -192,7 +192,7 @@
    "committed": 0,
    "verified": false,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "cap": "B3 outside-AI API meter (hard cap lifted Oct 16 ~10:16 AM)",
@@ -202,7 +202,7 @@
    "verified": false,
    "note": "meter read in Flipper coach log; was over the $22 soft stop before the lift",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/coach-notes.md",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   }
  ],
  "blockers": [
@@ -211,49 +211,49 @@
    "owner": "oki",
    "since": "2026-10-15T07:36:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/DEADLINES.md",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "text": "Shopify Basic plan switch approved; needs you in Shopify Admin > Settings > Plan",
    "owner": "erik",
    "since": "2026-10-15T09:00:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "text": "Policies = gate-5 BLOCKER: live refund policy still offers 30-day returns (conflicts with your no change-of-mind rule). New drafts ready; paste them into Shopify Admin > Settings > Policies",
    "owner": "erik",
    "since": "2026-10-16T10:06:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "text": "Free shipping: rule $40 (Erik Oct 16 10:44 AM); live Admin rate + Hook copy still $35 \u2014 flip at publish",
    "owner": "oki/muse",
    "since": "2026-10-16T10:44:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "text": "Kling: team record cancelled Oct 15, UNVERIFIED (no billing proof filed). Verify in Kling billing by Nov 10 or it renews $8.80 Nov 14",
    "owner": "reel",
    "since": "2026-10-16T10:10:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/kling.md",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "text": "HWH felt ask SENT (Erik 10:30 / Oki 10:45); waiting supplier reply; Practice #6 screenshot still owed",
    "owner": "oki",
    "since": "2026-10-16T10:30:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   },
   {
    "text": "DECIDED: posting on hold until store live. Klaviyo send.pauca.shop VERIFIED; Activate parked to launch",
    "owner": "team",
    "since": null,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-   "as_of": "2026-10-16T11:57:45-04:00"
+   "as_of": "2026-10-16T11:59:49-04:00"
   }
  ],
  "coach_notes": {
@@ -264,6 +264,6 @@
   ],
   "flag": "Flags to Erik:\n- **3h note DUE** \u2192 WakeParent full roll call.\n- **Alpha Fri EOD at risk** (form/phone unclear) \u2192 include in Erik note.\n- **Free-ship drift** Admin+Hook $35 vs rule $40 \u2192 Erik Admin flip + Hook rewrite.\n- HWH Practice FOG \u2192 Oki screenshot on #6 (not silent escalation; Muse active).\n- No 2-day zero, no over-budget charge, no past-kill yet, no AUDIT breach, no kill-switch breach, no cancel-call due, Muse not silent.",
   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/coach-notes.md",
-  "as_of": "2026-10-16T11:57:45-04:00"
+  "as_of": "2026-10-16T11:59:49-04:00"
  }
 }
