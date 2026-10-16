@@ -56,3 +56,5 @@ date,item,type,amount,source
 2026-10-15,API est ai-crew C-pnl anthropic claude-sonnet-5-5 revision v3 (apply GPT audit) (stop=end_turn, out=30731),api_est,0.5382,team-comms-log ESTIMATE
 2026-10-15,eRank Basic monthly (Paddle via Link one-time card; cancel renewal before 11-15; export by 10-21; review 11-15),spent,6.52,Oki/Erik confirmed 8:30 PM (5.99+0.53 NYC tax)
 2026-10-15,API est master-team idea engine run1,api_est,0.1340,master-team/idea-engine/run-2026-10-15-2121 ESTIMATE
+2026-10-15,API est ai-crew synergy anthropic claude-sonnet-5-5 critique (stop=end_turn, out=1586),api_est,0.0291,team-comms-log ESTIMATE
+2026-10-15,API est ai-crew synergy openai gpt-5.5 critique,api_est,0.0795,team-comms-log ESTIMATE
