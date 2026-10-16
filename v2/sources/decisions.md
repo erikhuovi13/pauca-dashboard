@@ -1,12 +1,16 @@
-# Open decisions for Erik (refreshed 2026-10-16T08:59:33-04:00)
+# Open decisions for Erik (refreshed 2026-10-16T10:31:15-04:00)
 Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker, po-total).
 - alpha-kill: Oct 16 noon US-imprint (Alpha) mail hold ends; Fri Oct 16 EOD (Oct 17 is Sat) written lot-1 quote under $350 or waitlist only / no PO (DEADLINES.md, oct17-kill-sheet.md). Fallback order: Alpha 30 plain, Alpha 25, Peixiong 100 DDP written under $350, waitlist only.
 - po-total: Oct 21 deposit terms in writing, Oct 22 PO target (DEADLINES.md, deposit-po-card-oct21.md).
-- kling: DONE, cancelled Oct 15 3:05 PM ET; access until Nov 14 (no decision).
+- kling: team record: cancelled Oct 15 — UNVERIFIED; verify in Kling billing by Nov 10 (renews $8.80 Nov 14). (kling.md, Practice #8 item 2)
 - venture-template: VOID. Erik kill-switched the email ventures Oct 15 4:41 PM ET; Oct 16 8:05 AM batch CANCELLED (send/STOP + send.py guard). No venture sends. Card retired from dashboard.
 - hustle-etsy-tracker: APPROVED by Erik in chat Oct 15 5:29 PM ET (GitHub #14; in decided.json). $150 plan — Etsy Seller Profit & Fee Tracker. Spend-ledger cash spent $71.32 (Etsy $29.80 + DeepSeek $5 + eRank $6.52 + Gemini AI Studio $30 Erik bought); committed $25.00 (B3 API meter envelope $25); remaining $53.68. Demand labels UNVERIFIED (Practice #13 / PENDING-NOTES). Source: hustles/leverage-2026-10-15/spend-ledger.csv + approvals-log.csv.
 - zoho: DONE per reply sweep replies-2026-10-15.md (inboxes missing: none); Zoho READ resolved (repo commit f291d15).
 - Erik GitHub answers read this refresh: shopify-plan-basic APPROVE #3 Oct 15 11:33 AM ET (issue CLOSED); lot1-order APPROVE #4 Oct 15 11:40 AM ET (issue CLOSED); venture-template APPROVE #12 Oct 15 3:17 PM ET (issue CLOSED); po-total APPROVE #11 Oct 15 3:14 PM ET (issue CLOSED) note: 'If this is the right thing to do then yes'; hustle-etsy-tracker APPROVE #14 Oct 15 5:29 PM ET (issue CLOSED)
 - po-total: Erik APPROVE on #11 if present above (conditional note). Team executes only a written all-in quote under $350 that passes the QA gate; otherwise C (waitlist only). Not yet in decided.json.
 - fiverr: Fiverr seller account for Flipper's $0 Linear/Notion to Sheets gig (GOD-SQUAD-PLAN decision list #6). No deadline.
-Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) and $35 free shipping at publish are shown as blockers, not decisions.
+Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is shown as a blocker. Free shipping: policy text $35 SOLID (Shopify read Oct 16 10:08 AM ET); checkout rate threshold verify in Admin before publish (Oki/Muse).
+- Pre-pub gates (Practice #8 item 7): price trio $42 / founding $39 ON HOLD (drift vs Shopify drafts; Pip re-audit); product-copy gate open; policies = gate-5 BLOCKER (live REFUND_POLICY still offers 30-day returns; new drafts in ceo/policy-new-2026-10-16, Erik pastes into Shopify Policies).
+- Status: posting DECIDED hold until store live; Klaviyo send.pauca.shop VERIFIED, Activate parked to launch.
+- HWH felt ask = Oki Alibaba send, held under Erik #5 double-check rule. Practice 10 AM audits DELIVERED 10:06 AM ET (#8).
+- Alpha: goods $7.56/set FAILS $3.50 kill line; survives only as priced speed exception under Erik #11.
