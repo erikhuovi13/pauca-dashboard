@@ -1,4 +1,4 @@
-# Open decisions for Erik (refreshed 2026-10-16T16:30:45-04:00)
+# Open decisions for Erik (refreshed 2026-10-16T17:59:32-04:00)
 Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker, po-total, alpha-kill).
 - alpha-kill: Oct 16 noon US-imprint (Alpha) mail hold ends; Fri Oct 16 EOD (Oct 17 is Sat) written lot-1 quote under $350 or waitlist only / no PO (DEADLINES.md, oct17-kill-sheet.md). Fallback order: Alpha 30 plain, Alpha 25, Peixiong 100 DDP written under $350, waitlist only.
 - po-total: Oct 21 deposit terms in writing, Oct 22 PO target (DEADLINES.md, deposit-po-card-oct21.md).
@@ -9,13 +9,14 @@ Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard 
 - Erik GitHub answers read this refresh: shopify-plan-basic APPROVE #3 Oct 15 11:33 AM ET (issue CLOSED); lot1-order APPROVE #4 Oct 15 11:40 AM ET (issue CLOSED); venture-template APPROVE #12 Oct 15 3:17 PM ET (issue CLOSED); po-total APPROVE #11 Oct 15 3:14 PM ET (issue CLOSED) note: 'If this is the right thing to do then yes'; hustle-etsy-tracker APPROVE #14 Oct 15 5:29 PM ET (issue CLOSED)
 - po-total: Erik APPROVE on #11 if present above (conditional note). Team executes only a written all-in quote under $350 that passes the QA gate; otherwise C (waitlist only). Not yet in decided.json.
 - fiverr: PARKED FYI — Erik Oct 16 10:07 AM no-template-plays rule; Linear/Notion-to-Sheets gig not proposed (dashboard/data.json fiverr fyi).
-Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is shown as a blocker. Free shipping: $40 or more, live in checkout (Erik Oct 16 10:44 AM; verified 12:05 PM); live Shipping policy wording still "over $40" (Admin paste).
-- Pre-pub gates (Practice #8 item 7): price trio $42 / founding $39 ON HOLD (drift vs Shopify drafts; Pip re-audit); product-copy gate open; policies mostly PASS per 1:03 PM stack check (refund/ToS final-sale; privacy shows ARDI address, home address removed); shipping wording nit open.
+Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is shown as a blocker. Free shipping: $40 or more, live in checkout (Erik Oct 16 10:44 AM; verified 12:05 PM); live Shipping policy wording fixed to "$40 or more" (4:47 PM audit).
+- Pre-pub gates (Practice #8 item 7): price trio $42 / founding $39 ON HOLD (drift vs Shopify drafts; Pip re-audit); product-copy gate open; policies PASS (refund/ToS final-sale; privacy shows ARDI address, home address removed; shipping wording fixed 4:47 PM).
 - Status: posting DECIDED hold until store live; Klaviyo send.pauca.shop VERIFIED, Activate parked to launch.
 - HWH felt ask SENT (Erik 10:30 AM / Oki inquiry 10:45; alibaba-send-log + coach run 16); Practice #6 still wants screenshot UNVERIFIED. Practice 10 AM audits DELIVERED 10:06 AM ET (#8).
 - Alpha: KILLED Oct 16 1:07 PM ET (ChatGPT said NO; Erik deferred). alpha-kill card retired (in decided.json). Reopen only if an unsolicited quote clears the $6/order floor and has a moat.
-- Felt: direct HWH RFQ SENT 3:03 PM; HWH auto-reply $235.23 delivered before duties for 100 pcs (over $200 kill; Erik pinged 3:47). Manus M4 0 alternatives; Zhongbang RFQ prepped (ceiling about $1.00/pc). Rongmei reply promised Oct 17. Printful sample KILLED (no moat).
+- Felt: HWH cheapest landed $247.16 vs $200 kill, FAIL on every path (Tally J56). Zhongbang RFQ held for Erik keep-or-drop (Oct 17 EOD). NEW card felt-keep (Venture, ceo/felt-keep-or-drop-card.md 5:58 PM): KEEP = send Zhongbang, buy nothing, kill Oct 20; DROP = kill plain felt, keep $0 tap prototype. Venture recommends DROP. Default if unanswered: Zhongbang not sent (dashboard data.json deadline "send only if Erik keeps felt"). Rongmei reply promised Oct 17. Printful sample KILLED (no moat).
 - Seats: Erik approved seat-redistribution-v1 at 4:21 PM (Muse/Practice seat dropped; Hook+Reel under Beacon). Flipper run 19 queues one yes/no for Erik's next note: keep felt alive on backups vs drop it under "no moat, no purchase".
 - IE19 $40 free-ship add-on fails as framed (Tally J55: max COGS at $10 retail is -$4.56); needs about $15+ retail or a reframe.
-- Shippo free account created ~2:51 PM (no card); Tally A287: labels at Shippo cost would lift felt net from $17.40 to $18.23-20.12. Ask ARDI packed weight and label pass-through.
-- Codex: no environment for pauca-engines since 1:25 PM, so no PRs; ChatGPT Pro 30-day clock running.
+- ARDI wrote YES on all three $147.15 conditions 3:07 PM (Ysell.pro sync, 2-day handling, $0.03 mailers); Erik holds release until a stock buy. Shopify fulfillment location is now ARDI Edison (home cleared). Shippo redundant (labels bought in Shopify); do not pay.
+- Codex: no environment for pauca-engines since 1:25 PM (~4.5h, oldest blocker), so no PRs; ChatGPT Pro 30-day clock running.
+- @pauca.shop Instagram created 4:43 PM (no posts). Flipper run 20 (5:54 PM): Perplexity used once while paused (J59), routed to Oki.
