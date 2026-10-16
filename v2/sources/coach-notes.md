@@ -1,12 +1,12 @@
-# Flipper coach notes (Run 18, Oct 16 2026, ~3:00 PM ET)
+# Flipper coach notes (Run 19, Oct 16 2026, ~4:26 PM ET)
 Excerpt from /workspace/coach/coach-log.md.
 
 Top ideas for the dashboard:
-- Send HWH now
-- stop on blocked tools
+- Drop felt now (no moat). Override: Erik's call
+- one yes/no in his next note
 
 Flags to Erik:
-No immediate-ping triggers: no 2-day zero, no over-budget, no past-kill, no public without AUDIT PASS, Muse 2h20m (3h at 3:39), no cancel call due, kill-switch quiet, Alpha at risk but felt fallback exists.
-3h note DUE → WakeParent roll call.
+No immediate-ping triggers: no 2-day zero, no over-budget, no past-kill (Alpha dies tonight; felt backups exist), nothing public without AUDIT PASS, Muse silent-escalation moot (seat dropped by Erik), no cancel call due (ChatGPT Pro ~Nov 13), kill-switch quiet.
+Decision for Erik in next 3h note (run 20, ~5:56 PM): felt-first (11:34) vs "no moat, no purchase" — keep felt alive on backups or drop it for the moat engine?
 
-B3 outside-AI API meter: $33.05 (as read in coach log Run 18, Oct 16 2026, ~3:00 PM ET)
+B3 outside-AI API meter: $33.40 (as read in coach log Run 19, Oct 16 2026, ~4:26 PM ET)
