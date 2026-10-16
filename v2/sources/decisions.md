@@ -1,4 +1,4 @@
-# Open decisions for Erik (refreshed 2026-10-16T13:26:27-04:00)
+# Open decisions for Erik (refreshed 2026-10-16T15:01:56-04:00)
 Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker, po-total, alpha-kill).
 - alpha-kill: Oct 16 noon US-imprint (Alpha) mail hold ends; Fri Oct 16 EOD (Oct 17 is Sat) written lot-1 quote under $350 or waitlist only / no PO (DEADLINES.md, oct17-kill-sheet.md). Fallback order: Alpha 30 plain, Alpha 25, Peixiong 100 DDP written under $350, waitlist only.
 - po-total: Oct 21 deposit terms in writing, Oct 22 PO target (DEADLINES.md, deposit-po-card-oct21.md).
@@ -14,4 +14,6 @@ Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is show
 - Status: posting DECIDED hold until store live; Klaviyo send.pauca.shop VERIFIED, Activate parked to launch.
 - HWH felt ask SENT (Erik 10:30 AM / Oki inquiry 10:45; alibaba-send-log + coach run 16); Practice #6 still wants screenshot UNVERIFIED. Practice 10 AM audits DELIVERED 10:06 AM ET (#8).
 - Alpha: KILLED Oct 16 1:07 PM ET (ChatGPT said NO; Erik deferred). alpha-kill card retired (in decided.json). Reopen only if an unsolicited quote clears the $6/order floor and has a moat.
-- Felt: HWH ask UNCONFIRMED; Rongmei backup RFQ ~11:54 AM, reply promised Oct 17. Printful sample KILLED (no moat).
+- Felt: the 10:30 AM ask went out as a public Alibaba Buying Request (2 off-spec junk quotes), not a direct message to HWH; direct HWH RFQ drafted 2:52 PM (send UNCONFIRMED). Rongmei reply promised Oct 17. Printful sample KILLED (no moat).
+- Shippo free account created ~2:51 PM (no card); Tally A287: labels at Shippo cost would lift felt net from $17.40 to $18.23-20.12. Ask ARDI packed weight and label pass-through.
+- Codex: no environment for pauca-engines since 1:25 PM, so no PRs; ChatGPT Pro 30-day clock running.
