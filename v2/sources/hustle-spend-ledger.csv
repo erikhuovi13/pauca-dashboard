@@ -19,7 +19,7 @@ date,item,type,amount,source
 2026-10-15,API est Perplexity Agent pro-search 8 queries,api_est,0.05,team-comms-log L209 ESTIMATE
 2026-10-15,API est ai-crew smoke google gemini-3.5-flash ping,api_est,0.0002,team-comms-log ESTIMATE
 2026-10-15,B3 API hard cap raise 10->25 (+15),committed,15.00,Erik APPROVED 7:24 PM ($30 total incl Gemini)
-2026-10-15,Gemini AI Studio prepay credit (~15),committed,15.00,Erik APPROVED 7:24 PM; pending browser purchase by Erik (no card entry by bots)
+2026-10-15,Gemini AI Studio prepay credit (bought by Erik himself; replaces $15 committed),spent,30.00,Erik direct approval 9:14 PM (external cap for this line $35)
 2026-10-15,API est ai-crew cycles x3 + review rerun (Perplexity/Gemini/OpenAI/Claude),api_est,1.14,team-comms-log ai-crew lines ESTIMATE UNVERIFIED rates
 2026-10-15,API est ai-crew A-fee-calc google gemini-3.1-flash-lite propose UX spec (fallback lite),api_est,0.0004,team-comms-log ESTIMATE
 2026-10-15,API est ai-crew C-pnl perplexity pro-search Etsy CSV formats,api_est,0.1120,team-comms-log ESTIMATE
@@ -55,3 +55,4 @@ date,item,type,amount,source
 2026-10-15,DeepSeek API credit (external cap; kill 10-29 unless 3 bulk jobs >=$1 saved + 1 used),spent,5.00,Oki verified balance 8:03 PM
 2026-10-15,API est ai-crew C-pnl anthropic claude-sonnet-5-5 revision v3 (apply GPT audit) (stop=end_turn, out=30731),api_est,0.5382,team-comms-log ESTIMATE
 2026-10-15,eRank Basic monthly (Paddle via Link one-time card; cancel renewal before 11-15; export by 10-21; review 11-15),spent,6.52,Oki/Erik confirmed 8:30 PM (5.99+0.53 NYC tax)
+2026-10-15,API est master-team idea engine run1,api_est,0.1340,master-team/idea-engine/run-2026-10-15-2121 ESTIMATE
