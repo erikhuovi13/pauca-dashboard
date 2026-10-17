@@ -1,4 +1,4 @@
-# Open decisions for Erik (refreshed 2026-10-17T17:58:25-04:00)
+# Open decisions for Erik (refreshed 2026-10-17T19:31:34-04:00)
 Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker, po-total, alpha-kill).
 - alpha-kill: Oct 16 noon US-imprint (Alpha) mail hold ends; Fri Oct 16 EOD (Oct 17 is Sat) written lot-1 quote under $350 or waitlist only / no PO (DEADLINES.md, oct17-kill-sheet.md). Fallback order: Alpha 30 plain, Alpha 25, Peixiong 100 DDP written under $350, waitlist only.
 - po-total: Oct 21 deposit terms in writing, Oct 22 PO target (DEADLINES.md, deposit-po-card-oct21.md).
@@ -25,3 +25,5 @@ Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is show
 - Felt kill line TIGHTENED (Erik 5:17 PM, A315 in DEADLINES.md): felt dies Oct 20 EOD without a written delivered quote <= $155.75/100 pcs ($6.23 case); $181.75 ($7.27) is now a general scoring screen only; $200 no longer decides felt.
 - Run 20 (5:11 PM): 0 new supplier replies since 4:07 PM; Spark missed 5:00 PM, Oki stand-in added 5 rows (241 to 246, Y 98 provisional, Pip countersign owed); frames + drawing v3 pre-check PASS (J110), Pip final PASS owed; bar tape standalone lane KILL recommended (J112), Venture countersign owed.
 - @pauca.shop Instagram created 4:43 PM (no posts). Flipper run 20 (5:54 PM): Perplexity used once while paused (J59), routed to Oki.
+- Runs 21-22 (6:08, 7:07 PM): no seat-owned file since 5:17 PM; 6:45 Pip reroute did not land, Sentinel owns frames PASS + rows 242-244 MX check. Felt duty: China 27%, India/BD 17%, Nepal 7%, USA 0% (ingenuity 6:20 PM). Nepal on Dashain holiday Oct 17-23, so Nepal rows 129/245 carry no weight at the Oct 20 kill. J115 IE46 red-team: FEATURE-ONLY (one optional IE44 field).
+- 7:27 PM ET: Party Innovations (recycled tire coaster) replied asking need-by date to check inventory; no price yet. Oki answers under the 1:14 PM standing supplier-quote rule. 0 accepted written quotes.
