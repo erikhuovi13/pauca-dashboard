@@ -64,3 +64,6 @@ date,item,type,amount,source
 2026-10-16,API est master-team idea engine run5 (NON-B3 prepaid DeepSeek+Kimi; B3 frozen),api_est,0.0542,master-team/idea-engine/run-2026-10-16-0915 ESTIMATE
 2026-10-16,API est master-team idea engine run6,api_est,0.2486,master-team/idea-engine/run-2026-10-16-1215 ESTIMATE
 2026-10-16,API est master-team idea engine run7,api_est,0.2346,master-team/idea-engine/run-2026-10-16-1515 ESTIMATE
+2026-10-16,API est master-team idea engine run8 (backfill; missed at run time),api_est,0.1663,master-team/idea-engine/run-2026-10-16-1815 ESTIMATE
+2026-10-16,API est master-team idea engine run9 (backfill; missed at run time),api_est,0.1613,master-team/idea-engine/run-2026-10-16-2115 ESTIMATE
+2026-10-17,API est master-team idea engine run10,api_est,0.2200,master-team/idea-engine/run-2026-10-17-0015 ESTIMATE
