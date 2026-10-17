@@ -1,4 +1,4 @@
-# Open decisions for Erik (refreshed 2026-10-16T20:58:03-04:00)
+# Open decisions for Erik (refreshed 2026-10-16T22:26:30-04:00)
 Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker, po-total, alpha-kill).
 - alpha-kill: Oct 16 noon US-imprint (Alpha) mail hold ends; Fri Oct 16 EOD (Oct 17 is Sat) written lot-1 quote under $350 or waitlist only / no PO (DEADLINES.md, oct17-kill-sheet.md). Fallback order: Alpha 30 plain, Alpha 25, Peixiong 100 DDP written under $350, waitlist only.
 - po-total: Oct 21 deposit terms in writing, Oct 22 PO target (DEADLINES.md, deposit-po-card-oct21.md).
@@ -18,5 +18,5 @@ Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is show
 - Seats: Erik approved seat-redistribution-v1 at 4:21 PM (Muse/Practice seat dropped; Hook+Reel under Beacon). Flipper run 19 queues one yes/no for Erik's next note: keep felt alive on backups vs drop it under "no moat, no purchase".
 - IE19 $40 free-ship add-on fails as framed (Tally J55: max COGS at $10 retail is -$4.56); needs about $15+ retail or a reframe.
 - ARDI wrote YES on all three $147.15 conditions 3:07 PM (Ysell.pro sync, 2-day handling, $0.03 mailers); Erik holds release until a stock buy. Shopify fulfillment location is now ARDI Edison (home cleared). Shippo redundant (labels bought in Shopify); do not pay.
-- Codex: environment blocker CLEARED as stale (7:12 PM capability run 9): PRs #17-#19 opened 3:37-3:39 PM; 0 merged. Sentinel PASS on rules; Pip FIXes stand on #17/#19; Tally money review due 9 PM; Oki merges Oct 17 AM (#18 first). ChatGPT Pro $100 in ledger as approved-unverified (charge not confirmed); Pro bar 8 merged PRs.
+- Codex: environment blocker CLEARED as stale (7:12 PM capability run 9): PRs #17-#19 opened 3:37-3:39 PM; 0 merged. Sentinel PASS on rules; Pip FIXes stand on #17/#19; Tally money review of #17/#18 missed 9 PM, now due 8:30 AM Oct 17 (audit run 36, coach/team-feed.md 9:33 PM); Oki merges Oct 17 AM after it (#18 first). ChatGPT Pro $100 in ledger as approved-unverified (charge not confirmed); Pro bar 8 merged PRs.
 - @pauca.shop Instagram created 4:43 PM (no posts). Flipper run 20 (5:54 PM): Perplexity used once while paused (J59), routed to Oki.
