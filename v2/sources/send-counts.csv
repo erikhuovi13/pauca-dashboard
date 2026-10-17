@@ -5,4 +5,4 @@ reply-kingmanor.csv,sent,1,"reply, not outreach; excluded from sent"
 sgny-batch.csv,dry-run,100,
 sgny-batch.csv,sent,50,
 t1.csv,sent,1,self-test to own inbox; excluded
-generated,2026-10-17T10:27:18-04:00,,counted by gen_v2.py from side-venture/send/send-log.csv
+generated,2026-10-17T10:27:39-04:00,,counted by gen_v2.py from side-venture/send/send-log.csv
