@@ -69,3 +69,5 @@ date,item,type,amount,source
 2026-10-17,API est master-team idea engine run10,api_est,0.2200,master-team/idea-engine/run-2026-10-17-0015 ESTIMATE
 2026-10-17,API est master-team idea engine run11,api_est,0.2472,master-team/idea-engine/run-2026-10-17-0315 ESTIMATE
 2026-10-17,API est master-team idea engine run12,api_est,0.2606,master-team/idea-engine/run-2026-10-17-0615 ESTIMATE
+2026-10-17,API est master-team idea engine run13,api_est,0.2555,master-team/idea-engine/run-2026-10-17-0915 ESTIMATE
+2026-10-17,API est YouTube demand pull run1 (Gemini 2.5 Flash x2),api_est,0.0255,ceo/youtube/run-2026-10-17.json ESTIMATE
