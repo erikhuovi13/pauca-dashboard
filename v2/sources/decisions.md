@@ -1,4 +1,4 @@
-# Open decisions for Erik (refreshed 2026-10-17T16:33:46-04:00)
+# Open decisions for Erik (refreshed 2026-10-17T17:58:25-04:00)
 Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker, po-total, alpha-kill).
 - alpha-kill: Oct 16 noon US-imprint (Alpha) mail hold ends; Fri Oct 16 EOD (Oct 17 is Sat) written lot-1 quote under $350 or waitlist only / no PO (DEADLINES.md, oct17-kill-sheet.md). Fallback order: Alpha 30 plain, Alpha 25, Peixiong 100 DDP written under $350, waitlist only.
 - po-total: Oct 21 deposit terms in writing, Oct 22 PO target (DEADLINES.md, deposit-po-card-oct21.md).
@@ -22,4 +22,6 @@ Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is show
 - Supplier outreach Oct 17: 32 quote asks sent, batches 1-7 (outreach-send-log-masked.md); Erik 1:14 PM standing rule: supplier quote asks send directly, pip_verified=Y + MX-pass only; purchases/payments still need Erik. 1 bounce (Coaster Card MX), 1 written reply (WZBags PU coaster, incomplete: unit/IOR/duty open, HOLD UNSCORED, follow-up sent). Sendable queue exhausted; Spark adds + Pip verify are now the throttle.
 - Codex: 4/8 merged (#18 12:14 PM, #17 12:15 PM, #19 1:49 PM, #22 3:04 PM as e054e27 after Sentinel + Tally A314 passed).
 - Run 19 (4:07 PM): 0 new supplier replies since 2:17 PM; Spark no adds since 1:50 PM; IE32 Faire lane KILLED (Faire will not ship to fulfillment centers; no moat).
+- Felt kill line TIGHTENED (Erik 5:17 PM, A315 in DEADLINES.md): felt dies Oct 20 EOD without a written delivered quote <= $155.75/100 pcs ($6.23 case); $181.75 ($7.27) is now a general scoring screen only; $200 no longer decides felt.
+- Run 20 (5:11 PM): 0 new supplier replies since 4:07 PM; Spark missed 5:00 PM, Oki stand-in added 5 rows (241 to 246, Y 98 provisional, Pip countersign owed); frames + drawing v3 pre-check PASS (J110), Pip final PASS owed; bar tape standalone lane KILL recommended (J112), Venture countersign owed.
 - @pauca.shop Instagram created 4:43 PM (no posts). Flipper run 20 (5:54 PM): Perplexity used once while paused (J59), routed to Oki.
