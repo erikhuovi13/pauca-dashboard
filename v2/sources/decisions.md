@@ -1,4 +1,4 @@
-# Open decisions for Erik (refreshed 2026-10-17T02:58:40-04:00)
+# Open decisions for Erik (refreshed 2026-10-17T04:35:13-04:00)
 Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker, po-total, alpha-kill).
 - alpha-kill: Oct 16 noon US-imprint (Alpha) mail hold ends; Fri Oct 16 EOD (Oct 17 is Sat) written lot-1 quote under $350 or waitlist only / no PO (DEADLINES.md, oct17-kill-sheet.md). Fallback order: Alpha 30 plain, Alpha 25, Peixiong 100 DDP written under $350, waitlist only.
 - po-total: Oct 21 deposit terms in writing, Oct 22 PO target (DEADLINES.md, deposit-po-card-oct21.md).
