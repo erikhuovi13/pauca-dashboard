@@ -78,5 +78,34 @@ Learning fields all blank-pending (replied/response_hrs/written quote/IOR/sample
 - Casa da Cortica <email> — 1a14add683100818 — cork BRL0.95-1.95/pc catalog
 Learning fields blank-pending. Running supplier-ask total sent today via Oki: batch1 3 + felt-keep 2 + batch2 4 (Qstomize/Yitian/USCraft/Felt&Wool) + batch3/4 six + batch5 three.
 
+## Reply received + follow-up (2026-10-17 ~1:40 PM ET)
+- WZBags/Don Wu <email> REPLIED 1:33 PM (first written quote): $0.60@100 / $0.45@500 ex-factory, DAP only, DAP Edison $50@100 (500 blank), IOR will-confirm, duty/MPF not-yet, sample $50/design refunded 1000+, ~12d production. Unit pc-vs-set UNKNOWN; UNSCORED HOLD (Tally).
+- Oki follow-up SENT in thread 1a14aa44d64fbea4, msg 1a14af39579564e0 (unit, DAP500, HS/declared, carrier/brokerage, Q8 verbatim, photo rights, weights, cork/deboss; postcode removed from draft sign-off).
+- BOUNCE: Coaster Card MX <email> domain nonexistent; row229 downgraded, Pip re-verify tasked, no resend until verified.
 
-Dashboard count (refresh 1:31 PM ET): 18 supplier quote asks sent Oct 17 (batch1 3, Southern Felt spec reply 1, Zhongbang 1, batch2 4, batch3/4 6, batch5 3; Southern Felt attachment correction and the ARDI ops reply not counted). Coaster Card MX bounced 1:18 PM (domain not found, per coach run 33). 0 written quote replies as of coach run 33 (~1:25 PM; Southern Felt auto-acks only).
+## Audit run 47 send HOLD (2026-10-17 ~1:43 PM ET)
+- R120 Ruito <email>: NO MX record (dns.google DoH check) — DO NOT SEND until Pip finds a working route. R229 Coaster Card MX: NXDOMAIN, confirmed dead. New rule: MX/DoH check before every first send (local dig MX returns blank on this box).
+
+## Batch 6 — Tally A306/A310 queue-head 5 SENT direct, MX-PASS (2026-10-17 ~1:47-1:48 PM ET)
+- Personizi <email> — 1a14afa0ef1aaef7 (after Erik approval of Auto-review card)
+- Tops 4u <email> — 1a14af8d235e1a05
+- Stamporio <email> — 1a14af8d7cc2df78
+- SPresente <email> — 1a14af8dc7e1ab83
+- CKM <email> — 1a14afa279d2e49b
+Learning fields blank-pending. Supplier asks sent today via Oki emails: 18 + batch5 already in 18? Recount: batch1 3 + felt 2 + batch2 4 + six 6 + batch5 3 (incl bounced MX) = 18, + batch6 5 = 23 sent, 1 bounced (row229), 22 delivered-pending.
+
+## Batch 7 — remaining sendable-9 SENT direct (2026-10-17 ~1:49-1:52 PM ET)
+- Sulblimaq <email> — 1a14afada4e9d97b
+- Zoom Creativo <email> — 1a14afae4576f9b6
+- CorkMart <email> — 1a14afaea98a456a
+- Printperu <email> — 1a14afaff220ab79
+- Ocean Crafts <email> — 1a14afb09ae423c5
+- Canepulp <email> — 1a14afb0b7023c95
+- Ematec <email> — 1a14afb2a6359e83
+- Ruitu <email> — 1a14afb33ec578bc (hold lifted on Pip DoH MX-PASS recheck)
+- GR Group <email> — 1a14afb3d5055926 (product-existence ask)
+Totals: 32 supplier asks sent today, 1 bounced (row229), 31 delivered-pending, 1 written reply (WZBags, incomplete). Tally email-sendable queue now exhausted; next sends come from new verifications.
+- DONE 2026-10-17 01:50 PM ET — Spark sheet stamp Batch 7: 9 rows marked EMAILED 2026-10-17 in supplier-leads-worldwide-v1.csv (R239 Sulblimaq 1a14afada4e9d97b, R234 Zoom Creativo 1a14afae4576f9b6, R91 CorkMart 1a14afaea98a456a, R237 Printperu 1a14afaff220ab79, R93 Ocean Crafts 1a14afb09ae423c5, R224 Canepulp 1a14afb0b7023c95, R232 Ematec 1a14afb2a6359e83, R120 Ruitu 1a14afb33ec578bc, R222 GR Group 1a14afb3d5055926); status +'; EMAILED 2026-10-17', next_action +'EMAILED 2026-10-17 (Oki) Gmail msg <ID>; learning blank-pending; written_quote stays N'; all 9 pip_verified=Y, written_quote=N, no MX-UNVERIFIED/no-email flags, R120 MX recheck note preserved; backup .bak-batch7-1017, Python csv 12 cols / 241 data rows validated, diff exactly 9 rows (cols status,next_action only), recount Y=93/N=148/distinct 240 (row190 dup), written Y=7. No outreach by Spark.
+
+
+Dashboard count (refresh 2:56 PM ET, from the log totals line after batch 7): 32 supplier quote asks sent Oct 17 (batch1 3, felt 2, batch2 4, batch3/4 6, batch5 3, batch6 5, batch7 9; Southern Felt attachment correction, ARDI ops reply and the WZBags follow-up not counted). 1 bounced (Coaster Card MX, dead domain). 1 written reply (WZBags PU coaster, 1:33 PM): incomplete (unit, IOR, duty open), HOLD UNSCORED, follow-up sent. Email-sendable queue exhausted.

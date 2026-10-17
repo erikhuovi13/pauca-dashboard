@@ -1,4 +1,4 @@
-# Open decisions for Erik (refreshed 2026-10-17T13:32:37-04:00)
+# Open decisions for Erik (refreshed 2026-10-17T14:57:30-04:00)
 Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker, po-total, alpha-kill).
 - alpha-kill: Oct 16 noon US-imprint (Alpha) mail hold ends; Fri Oct 16 EOD (Oct 17 is Sat) written lot-1 quote under $350 or waitlist only / no PO (DEADLINES.md, oct17-kill-sheet.md). Fallback order: Alpha 30 plain, Alpha 25, Peixiong 100 DDP written under $350, waitlist only.
 - po-total: Oct 21 deposit terms in writing, Oct 22 PO target (DEADLINES.md, deposit-po-card-oct21.md).
@@ -19,6 +19,6 @@ Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is show
 - IE19 $40 free-ship add-on fails as framed (Tally J55: max COGS at $10 retail is -$4.56); needs about $15+ retail or a reframe.
 - ARDI wrote YES on all three $147.15 conditions 3:07 PM (Ysell.pro sync, 2-day handling, $0.03 mailers); Erik holds release until a stock buy. Shopify fulfillment location is now ARDI Edison (home cleared). Shippo redundant (labels bought in Shopify); do not pay.
 - Codex: environment blocker CLEARED as stale (7:12 PM capability run 9): PRs #17-#19 opened 3:37-3:39 PM; 0 merged. Sentinel PASS on rules; Pip FIXes stand on #17/#19; Tally money review of #17/#18 missed 9 PM, now due 8:30 AM Oct 17 (audit run 36, coach/team-feed.md 9:33 PM); Oki merges Oct 17 AM after it (#18 first). ChatGPT Pro $100 in ledger as approved-unverified (charge not confirmed); Pro bar 8 merged PRs.
-- Supplier outreach Oct 17: 18 quote asks sent (outreach-send-log-masked.md); Erik 1:14 PM standing rule: supplier quote asks send directly, pip_verified=Y only; purchases/payments still need Erik. 1 bounce (Coaster Card MX), 0 written quotes yet.
-- Codex: #18 merged 12:14 PM, #17 merged 12:15 PM (2/8). #19 CONFLICTING after #17; rebase task submitted via Codex cloud 1:12 PM, unconfirmed at 1:13. #22 DRAFT tier fix needs Tally + Sentinel.
+- Supplier outreach Oct 17: 32 quote asks sent, batches 1-7 (outreach-send-log-masked.md); Erik 1:14 PM standing rule: supplier quote asks send directly, pip_verified=Y + MX-pass only; purchases/payments still need Erik. 1 bounce (Coaster Card MX), 1 written reply (WZBags PU coaster, incomplete: unit/IOR/duty open, HOLD UNSCORED, follow-up sent). Sendable queue exhausted; Spark adds + Pip verify are now the throttle.
+- Codex: 3/8 merged (#18 12:14 PM, #17 12:15 PM, #19 1:49 PM after Codex cloud rebase to f3cc059 and Tally + Pip re-verify). #22 DRAFT, new head cf19e30 (1:49 PM) answers Sentinel FIX + Tally A304; needs Tally + Sentinel re-review.
 - @pauca.shop Instagram created 4:43 PM (no posts). Flipper run 20 (5:54 PM): Perplexity used once while paused (J59), routed to Oki.

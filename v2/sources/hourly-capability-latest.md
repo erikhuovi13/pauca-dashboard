@@ -1,34 +1,30 @@
-# Hourly capability brief — Oki → Flipper (Sat Oct 17, ~1:06 PM ET, run 16)
-Goal: pauca live on Shopify, all in, Etsy CUT. "No moat, no purchase." APPROVALS: reversible + ≤$25 self-approve. Felt = KEEP, quote-gathering only ($0, Oct 20 kill unless written delivered ≤$200/100; J100: real lines $181.75 @ $7.27 / $155.75 @ $6.23). NEW Erik ~1:04–1:05: 48h send spacing REMOVED and ALL volume caps lifted — adds/sends/verify ratios are reported metrics only. Quality gates stay: pip_verified=Y before any send, Sentinel Q8, no invented data, no purchases. Revenue $0, 0 orders.
+# Hourly capability brief — Oki → Flipper (Sat Oct 17, ~2:05 PM ET, run 17)
+Goal: pauca live on Shopify, all in, Etsy CUT. "No moat, no purchase." APPROVALS: reversible + ≤$25 self-approve. Volume caps lifted (Erik 1:05); quality gates stay: pip_verified=Y + MX-pass before any first send, Sentinel Q8, no invented data, no purchases. Felt = quote-only, Oct 20 kill. Revenue $0, 0 orders.
 
-## New since run 15 (12:12)
-- **MERGE 2/8.** #17 merged 12:15 PM (merge `8a8bbdd`, head `ac57cf1`) right after #18. Codex now 2/8.
-- **#19 now CONFLICTING/DIRTY** vs `oki/data-drop-1` after #17 landed. Oki asked @codex at 12:16; the GitHub connector bounced ("create an environment for this repo") at 12:17. Rebase not started.
-- **#22 (new, DRAFT, Closes #20):** Codex fix so component cost uses the launch/MOQ price tier, not a hard-coded 100-order tier. Labels needs-tally + needs-sentinel. Real money-logic change.
-- **Spark:** India batch 212→222 rows; geo-lane notes (Mexico/LatAm 0/222, Southwest gap); Day-1 slate; Pip stamp applied Y 28→38.
-- **Pip:** block1 + India 213–222 verify filed (1:03). Spark flags a count mismatch: Pip files say Y=38, Oki's list said 35.
-- **Tally A303 (1:05):** AskPriority Day-1 rank — 1 AAkron (row 33, $2.97/4-pack, contact UNVERIFIED), 2 Corkage (row 214, INR50/pc ex-GST, USD UNKNOWN), 3 Green Haven (213), then Big-Ben, Cocotuft, GR Group (non-coaster). Row 188 Yitian already in flight, never re-send.
-- **Venture:** IE41 Pooled Reorder Club = NOT-A-MOAT (feature only; ≥10-of-first-25 test pre-registered, Oct 30 checkpoint). Coaster lane still has no named moat.
-- **Beacon:** coaster demand evidence pack filed (6+ quotes; Reddit snippet-only UNVERIFIED due to 403, Airhostsforum VERIFIED).
-- **Hook:** J73 Card 1 phrase restored ("first up, maybe, a coaster set.") per Sentinel FIX.
-- Inbox/Alibaba: no supplier replies, nothing dated 10-17.
+## New since run 16 (1:06)
+- **MERGE 3/8.** #19 rebased via Codex cloud UI to `f3cc059`, Tally A311 + Pip re-verify PASS (data byte-identical to reviewed `4b1f115`), merged 1:49 PM into `oki/data-drop-1`.
+- **#22 new head `cf19e30` (1:49 PM)** answers Sentinel's FIX (landed_by_moq + purchase_quantity_basis labels) and Tally A304. Still DRAFT, needs-tally + needs-sentinel.
+- **Sends: queue EXHAUSTED.** 32 asks out today (batches 3–7), 1 bounce (row 229 Coaster Card MX, now N/DO NOT RESEND), Tally A313 partition Sendable 0 / In-flight 31 / Written 5 / Gate-0 34 / No-contact 23 = 93 Y. Pip MX audit all-pass on the 93; row 120 Ruito hold lifted (DoH OK). MX-before-first-send rule filed (sheet-rules-mx-check).
+- **First written reply:** WZBags (row 188) $0.60@100 / $0.45@500, unit UNKNOWN, DAP $50@100, IOR unconfirmed — INCOMPLETE, HOLD UNSCORED; follow-up sent.
+- Gmail: no other supplier quotes; ARDI Q13 still unanswered.
 
 ## One play per seat
-- **Pip (first, 15 min):** settle Y=38 vs 35 in one line (whose list is wrong and why), then find AAkron's own-site contact so Tally's #1 ask is sendable. Underused: Pip is now the only throttle on sends — every verify = one send unlocked. Pair with Spark on contacts.
-- **Tally + Sentinel (pair):** review **#22** (money logic: tier selection, excess-inventory cash) — Tally runs an a30x assert on the synthetic 10-order case ($10 vs $0.60), Sentinel does rules. Tally also adds USD for Corkage only from a cited FX source with date, else stays UNKNOWN.
-- **Sentinel:** (a) confirm #19 evidence FIX on content at `4b1f115` now — content survives a clean rebase, so a one-line PASS/FIX saves a cycle; (b) one-line re-pass on Hook's J73 Card 1; (c) Q8-clean the Corkage/Green Haven quote asks. Underused: pre-clearing content before the head moves.
-- **Spark:** with caps lifted, run adds continuously — India held-8 queue + the 3 Mexico/LatAm slots today, not tomorrow; own-site verified contacts only. Flag synergy rows (same mailer/supplier/customer as an open quote) OUTREACH-NOW.
-- **Hook + Reel (pair):** fold Beacon's VERIFIED Airhostsforum quote (guest water rings) into the J90 PDP draft as internal context only, no claim; Reel pairs the 3 SVG mocks to Hook's grid captions. Nothing posts (IG post-1 = Erik; TikTok HARD HOLD).
-- **Beacon:** upgrade the Reddit snippets — try old.reddit.com / a computerUse hand-open via Oki for the top 3, and run an X public search count ("water ring", "whose cup") — free, 25/call. UNVERIFIED stays labelled.
-- **Venture:** two moat kills today (MC042, IE41). Write one card: either the one data moat a coaster set could carry (pre-registered sell-through log from J101) or say none and name the next lane from Spark's 222-row sheet.
+- **Spark (first):** the send pipe is empty, so Spark is now the throttle. Run adds continuously — India held-8 + 3 Mexico/LatAm + No-contact-23 contact hunts (own-site email only). Pair with Pip in micro-batches of 5 so each batch is verify+MX-stamped within the hour, not end of day. Flag synergy rows (same mailer/supplier/box as an in-flight ask) OUTREACH-NOW.
+- **Pip:** verify Spark's adds as they land (5-row batches, MX via dns.google DoH). Underused: Pip's No-contact-23 list is 23 sends waiting on one email each — pair with Spark there first.
+- **Tally + Sentinel (pair):** re-review #22 at `cf19e30` now — Tally re-runs the A304 asserts (default flag + HOLD on missing launch qty, 10-order case), Sentinel re-passes the label FIX. Two one-liners clear it for Codex to mark ready. Tally also files the WZBags partial as a scoring stub (what's known, what's UNKNOWN) so it scores the minute the follow-up lands.
+- **Sentinel:** after #22, pre-clear one generic Q8 ask template for Spark's new rows so sends go same-hour.
+- **Reel:** 3 claim-free diagram frames (TAKE-OFF since 12:20, STALL at audit 47). Deliver by the 3 PM audit or **Hook** takes it. Pair with Hook's grid captions.
+- **Hook:** draft the reply-scoring email pattern (thank, ask unit/IOR/DDP gaps in one line) as an internal template for Oki's follow-ups, Sentinel-checked. Nothing posts (IG post-1 = Erik; TikTok HARD HOLD).
+- **Beacon:** X public-search counts for "water ring" / "coaster" complaints (free, 25/call) + old.reddit hand-opens for the top 3 snippets via Oki; UNVERIFIED stays labelled. Feed the strongest VERIFIED quote to Hook.
+- **Venture:** coaster lane still has no named moat after MC042 + IE41. Use the 31 in-flight asks as data: one card on whether a self-updating supplier price/lead-time index (from our own replies) is a real moat, or say none.
 
-## Roadblocks → who clears
-1. **#19 conflict + @codex bounce (~52 min, since 12:15).** Team-clearable: **OKI** routes the rebase through the signed-in Codex cloud UI in the box browser (the route that produced the 9:35 pushes and #22), not the @codex GitHub mention. Then Tally + Pip re-verify at the new head, Sentinel clears labels, Oki merges. Not an Erik item unless Codex cloud also demands an environment.
-2. **Sentinel #19 evidence re-check (asked 12:12, open since 9:37 push, ~3.5h).** **SENTINEL** — do it on content now (play above).
-3. **0 accepted written quotes under a named gate (~15.5h).** Saturday, outside parties. **OKI** sends Tally's rank order as soon as each row is pip_verified=Y + Sentinel-clean (Corkage, Green Haven now; AAkron after Pip finds contact). Payment wording = platform/escrow only. pdfinfo + byte check on any attachment. Ops email, auto-approved.
-4. **ARDI Q13 gate basis (~3.5h).** Outside, Saturday. **OKI** checks at Supplier inbox keeper ~1:30 PM; quotes score on both $7.27 and $6.23 meanwhile.
-5. Not team blockers: ARDI $147.15 held for stock buy (Erik); IG post-1 + Keyword Planner (Erik, on card); YouTube Data API key (Erik, pinged 9:37); Manus credit hold to 3 PM (deliberate).
+## Roadblocks > 1h → who clears
+1. **0 accepted written quotes under a named gate (~16.6h).** Outside parties, Saturday. WZBags partial is the first signal. **OKI** checks inbox at Supplier inbox keeper (5:30 PM) and follows up on gaps; Tally scores on $181.75/$155.75 per 100.
+2. **ARDI Q13 gate basis (~4.6h).** Outside, Saturday. **OKI** watches; quotes score on both $7.27 and $6.23 meanwhile. Not an Erik item.
+3. **Reel diagram frames (~1.75h since 12:20).** **REEL**, backup **HOOK** at 3 PM audit.
+4. **@codex GitHub mention bounce ("create an environment").** Not blocking — the Codex cloud UI route works (`f3cc059`, `cf19e30`). Optional $0 fix: **OKI** links the repo to the existing pauca-engines Codex environment in the box browser. Not Erik unless it asks for payment.
+5. Not team blockers: ARDI $147.15 held for stock buy (Erik); IG post-1 + Keyword Planner (Erik, on card); YouTube Data API key (Erik); Manus credit hold to 3 PM (deliberate).
 
-CLEARED this run: #17 merged (2/8); J73 Card 1 FIX applied; IE41 moat call made (NOT-A-MOAT); Beacon coaster evidence pack filed.
+CLEARED this run: #19 rebase + merge (3/8); row 120 hold; Pip MX audit; sendable queue fully sent (32 today).
 
 **No Erik ping.** Nothing over $25, nothing public, every Erik item already on his card.
