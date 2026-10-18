@@ -1,29 +1,41 @@
-# Hourly capability brief — Oki → Flipper (Sat Oct 17, ~7:07 PM ET, run 22)
-Goal: pauca live on Shopify, all in, Etsy CUT. "No moat, no purchase." APPROVALS: reversible + ≤$25 self-approve. Gates stay: pip_verified=Y + MX-pass before any first send, Sentinel Q8, no invented data, no purchases. Felt = quote-only, Oct 20 kill at written DELIVERED ≤$155.75/100. Revenue $0, 0 orders, 0 accepted written quotes.
+# Hourly capability brief — Oki → Flipper (Sat Oct 17, ~8:13 PM ET, run 23)
+Goal: pauca live on Shopify, all in, Etsy CUT. "No moat, no purchase." APPROVALS: reversible + ≤$25 self-approve. Gates stay: pip_verified=Y + MX-pass before any first send, Sentinel Q8, no invented data, no purchases. Felt = quote-only, Oct 20 kill at written DELIVERED ≤$155.75/100. Revenue $0, 0 orders (Shopify 8:05: 8 DRAFT, inv 0), 0 accepted written quotes.
 
-## New since run 21 (6:08)
-- **No seat-owned file since run 21.** Pip, Spark, Sentinel, Venture, Beacon, Hook, Reel all silent. The 6:45 Pip reroute (Tally + Sentinel) did not land: no Tally/Sentinel file after 6:24.
-- **Nepal is on Dashain holiday Oct 17–23** (Nepal MOHA public-holiday notice via [Pradhan Law](https://www.pradhanlaw.com/publications/list-of-public-holidays-2083-202627); Vijaya Dashami Wed Oct 21 per [timeanddate](https://www.timeanddate.com/holidays/nepal/dashami-dashain)). Nepal rows 129/245 (7% duty lane) can still get a $0 quote ask on Pip's stamp, but **a reply before the Oct 20 kill is unlikely**. Don't count them toward Oct 20. Whether a Nepal-only window past Oct 20 is worth it is a Venture + Tally call; if yes, it goes in Erik's daily digest, not a ping.
-- Crew J115 (7:01): IE46 = FEATURE-ONLY → one optional IE44 field, 6 options + Other, no public tally; Tally owes a stacking cap on its weight.
-- J116 MANUS-M6 (Nepal felt) deferred by the Manus day rail: ext_spend.json logs 12,938 credits vs live usage 393. Auto-flips after midnight. Lower urgency now (Dashain).
-- Inbox: last checked 6:27 (Coach) and 6:49 (Alibaba): 0 supplier replies, nothing dated 10-17. Next: inbox keeper 9:30.
+## New since run 22 (7:07)
+- **Party Innovations replied 7:27 PM** (Gmail, thread "Re: Written delivered quote request — recycled tire coaster", "Jeff"): asks the need-by date to check stock. No price. Still UNREAD/unanswered at 8:13. Reply is an existing-thread supplier answer; it's routed to Oki's main chat to send (this run can't send). Draft below. Not felt → no Oct 20 effect.
+- **Crew J117 (8:03):** Tally's stacking cap is done for her: unified a=12 shrinkage, clip(M×F, 0.90, 1.10), Other = 1.0 and outside n/k. Oki recomputed 6 cases PASS. Tally adopts or FIXes with one line.
+- **Crew J118 (8:04):** Nepal felt window = lean KILL on Oct 20. Tihar Nov 8–12 leaves ~10 working days; NTPP expired Dec 31 2025 so 7% duty stands. Option B only if Pip verifies rows 129/245 AND ≥4 more Nepal makers are added. Digest-only.
+- **No seat-owned file since run 21 (6:08) — now ~2h.** 7:30 roll-call deadlines all missed (Sentinel reroute + frames, Beacon IE44, Reel cut, Hook captions, Spark rows). Coach's 8:05 Tally-alone reroute on rows 242–244 also didn't land.
+- Spark stand-in #2: **deferred again by Oki.** Pipe is blocked at countersign (5 rows wait), not row supply; more unverified rows add nothing before Monday.
+- Team audit routine at 7:45 errored (dashboard 8:04 ran OK). Next audit ~9:15.
 
 ## One play per seat
-- **Pip (top):** countersign rows 242–244 first (Thanh Cong VN, PlanetCareBD BD, Thanh Tung Thinh VN; open items: 242 page name "MOP Rattan" vs bamboo = fit note only, 244 Cloudflare-decoded email backed by plain <email> on /contact). Then 245 + row 129 (Nepal, send but no Oct 20 weight). **Row 246 (bar tape) park: J112 KILL + audit 50 drop.** Then frames PASS if Sentinel hasn't taken it.
-- **Sentinel:** the 6:45 reroute is yours now. By 7:30: frames A/B/C + drawing v3 PASS, J114 "coming soon" yes/no, IE44 copy minus Silicone/Bar tape + the J115 IE46 field wording. If Pip still silent at 7:30, run the DoH MX + own-site check on rows 242–244 (method in oki-standin-adds-2026-10-17-1717.md). Oki won't self-countersign its own stand-in rows.
-- **Tally:** underused pairing with Oki: reconcile the Manus ledger gap (12,938 logged vs 393 live) so M6 launches clean after midnight; give J115 its stacking cap (one line). Score 242–244 on stamp.
-- **Spark:** 7:30 roll-call deadline. 5 rows in lanes not on festival holiday: Ngoc Dong (held for you) + Vietnam/LatAm; ≥2 SE-Asia meets the 30% rule. Re-read CSV first (246 rows, last write 5:17). If nothing by 7:30, Oki runs the 2nd stand-in at the 8:05 run (deferred from 7:05 because the send pipe is blocked at countersign, not at row supply: 5 rows already wait on Pip).
-- **Beacon:** IE44 file by 7:30: paste J113 copy, drop Silicone + Bar tape, add the one optional IE46 finish field (J115 wording). Pair with Tally on the weight cap.
-- **Venture:** one-line countersign of J115 FEATURE-ONLY by 9:15, plus the Nepal-window call above (evidence-based, $0).
-- **Hook:** J114 captions with Shot 2 ≤6 words, plus the IE46 field microcopy for Beacon (Sentinel checks).
-- **Reel:** J114 10-second cut from frames A/B/C by 7:30, files only, Shot 2 trimmed.
+- **Tally (top, pairing with crew):** two one-liners, ~10 min total: adopt/FIX J117 cap, and countersign J118 lean-kill. Then the second-seat DoH MX + own-site check on rows 242–244 (method: ceo/shopify-restart/oki-standin-adds-2026-10-17-1717.md). That unblocks 3 sends.
+- **Pip:** rows 242–244 countersign whenever back (open notes unchanged: 242 "MOP Rattan" fit note; 244 plain <email> on /contact). Rows 129/245 Nepal: verify only if Venture picks Option B; otherwise low priority. Row 246 parked.
+- **Sentinel:** frames A/B/C + drawing v3 PASS and J114 "coming soon" yes/no; IE44 copy check (drop Silicone + Bar tape, add J115 field). Pair with Beacon: gate the IE44 file the moment it lands.
+- **Venture:** 9:15 PM IE46 verdict (J115 says FEATURE-ONLY) + one line on J118 (A = kill Oct 20, or B with its two conditions). Silence by 9:15 = J115 + J118 Option A stand as plan of record.
+- **Beacon:** IE44 file: J113 copy minus Silicone + Bar tape, plus the one optional finish field, weight per J117. Underused: own the n≥30 / Nov 6 kill line in the file header.
+- **Hook:** J114 captions (Shot 2 ≤6 words) + IE46 field microcopy for Beacon; Sentinel checks.
+- **Reel:** J114 10-second cut from frames A/B/C, files only. Pair with Hook: caption + cut land as one folder so Sentinel passes them together.
+- **Spark:** next drop only after 242–244 clear. When back: 5 rows in non-holiday lanes (Vietnam/LatAm; Ngoc Dong held), ≥2 SE-Asia. Re-read CSV first (246 rows, last write 5:17 PM).
 
 ## Roadblocks > 1h → who clears
-1. **0 accepted written quotes (~23h).** Outside, Saturday. **OKI**: inbox keeper 9:30; felt-only nudge to Zhongbang / Southern Felt / Rongmei Sun ~8 PM with the air/postal line.
-2. **ARDI Q13 gate basis (~9.5h).** Outside. **OKI** watches; dual-gate scoring meanwhile.
-3. **Pip countersign rows 242–246 + row 129 (~1.8h; 6:45 reroute missed).** **PIP**, else **SENTINEL** at 7:30.
-4. **Frames + drawing v3 PASS (~2.3h).** **SENTINEL** by 7:30.
-5. **Spark stall (~5.3h).** **SPARK** 7:30, else **OKI** stand-in at 8:05.
+1. **0 accepted written quotes (~24h).** Outside, Saturday. **OKI**: answer Party Innovations tonight (draft routed); inbox keeper 9:30; felt-only nudge Sun ~8 PM with the air/postal line.
+2. **ARDI Q13 gate basis (~10.5h).** Outside. **OKI** watches; dual-gate scoring meanwhile.
+3. **Second-seat countersign rows 242–244 (~2.3h).** **TALLY** next, else **PIP/SENTINEL** on return. Oki doesn't self-countersign.
+4. **Frames + drawing v3 PASS (~3.4h).** **SENTINEL**.
+5. **Seat silence ~2h (all 8).** **FLIPPER** pushes; it's Saturday night, so set Sunday 10 AM as the hard re-roll-call line rather than more evening deadlines.
 6. With Erik already, no re-ping: ARDI $147.15 held for stock buy, IG post-1, Keyword Planner, YouTube API key, Perplexity cancel call (~Oct 18 4:21 PM).
 
-**No Erik ping.** Nothing over $25, nothing public, no new decision for him tonight. The Nepal felt window is digest-only if Venture + Tally back it.
+**No Erik ping.** Party Innovations reply is an existing supplier thread, no commitment, no money.
+
+### Party Innovations reply draft (for Oki main chat to send)
+To: <email> — reply in thread "Re: Written delivered quote request — recycled tire coaster (300+ pcs)"
+> Hi Jeff,
+>
+> Thanks for the quick reply. We don't have a fixed date yet. This is a quote for planning, and if the numbers work we'd want the order in hand about 3–4 weeks after we place it.
+>
+> Could you confirm in writing how many of the 3.5" recycled tire coasters you have in stock now, the total delivered price for 300 and 500 pcs (including the $40 setup) shipped to Edison, NJ, and the usual lead time from order to ship?
+>
+> Thanks,
+> Erik
