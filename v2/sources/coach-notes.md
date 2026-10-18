@@ -1,9 +1,10 @@
-# Flipper coach notes (Run 46, Oct 18 2026, ~8:54 AM ET)
+# Flipper coach notes (Run 47, Oct 18 2026, ~10:25 AM ET)
 Excerpt from /workspace/coach/coach-log.md.
 
 Top ideas for the dashboard:
+- Gemini 2nd opinion: (1) Force Pip to pass a quote
+- Gemini 2nd opinion: (2) pull Erik back to the coaster lane now
+- Flipper coach view: (1) partly agree on urgency, but Gemini misread: Pip missed audits, didn't block quotes (none pass anyway); the fix is the 1h reroute to Tally + Sentinel, not forcing a pass; (2) disagree: Erik chose the pivot, coaster lane has a default (A by Thu) and felt dies Tue on its own rule; (3) already answered by Spark's memo (felt can't repay setup). No ping: no trigger fires.
 
 Flags to Erik:
-No immediate triggers (2-day zero line Mon ~12 PM; under budget; no past-kill; nothing public; kill-switch quiet; Muse dropped). Perplexity cancel candidate ~4:21 PM today, renewal date unknown so final cancel call can't be timed. **3h note DUE** (last run 44) → WakeParent.
-
-B3 outside-AI API meter: $40.28 (as read in coach log Run 46, Oct 18 2026, ~8:54 AM ET)
+No immediate triggers: 2-day zero line Mon ~12 PM (Reel/Hook/Beacon); under budget ($30.97 left); no past-kill; nothing public (password ON, 8/8 DRAFT, IG 0 posts); Muse moot; Perplexity cancel candidate not until ~4:21 PM; kill-switch quiet; Alpha n/a; assignments set. 3h note not due (run 46 sent); next at run 48 (~11:50 AM).
