@@ -1,4 +1,4 @@
-# Open decisions for Erik (refreshed 2026-10-17T21:03:07-04:00)
+# Open decisions for Erik (refreshed 2026-10-17T22:33:49-04:00)
 Source rule: max 3 time-sensitive cards (soonest deadline first) from dashboard data.json deadlines + GitHub decision issues, minus decided.json (shopify-payments, freeship-35, shopify-plan-basic, lot1-order, venture-template, hustle-etsy-tracker, po-total, alpha-kill).
 - alpha-kill: Oct 16 noon US-imprint (Alpha) mail hold ends; Fri Oct 16 EOD (Oct 17 is Sat) written lot-1 quote under $350 or waitlist only / no PO (DEADLINES.md, oct17-kill-sheet.md). Fallback order: Alpha 30 plain, Alpha 25, Peixiong 100 DDP written under $350, waitlist only.
 - po-total: Oct 21 deposit terms in writing, Oct 22 PO target (DEADLINES.md, deposit-po-card-oct21.md).
@@ -27,4 +27,5 @@ Already decided: Shopify Basic plan switch (needs Erik in Shopify Admin) is show
 - @pauca.shop Instagram created 4:43 PM (no posts). Flipper run 20 (5:54 PM): Perplexity used once while paused (J59), routed to Oki.
 - Runs 21-22 (6:08, 7:07 PM): no seat-owned file since 5:17 PM; 6:45 Pip reroute did not land, Sentinel owns frames PASS + rows 242-244 MX check. Felt duty: China 27%, India/BD 17%, Nepal 7%, USA 0% (ingenuity 6:20 PM). Nepal on Dashain holiday Oct 17-23, so Nepal rows 129/245 carry no weight at the Oct 20 kill. J115 IE46 red-team: FEATURE-ONLY (one optional IE44 field).
 - 7:27 PM ET: Party Innovations (recycled tire coaster) replied asking need-by date to check inventory; no price yet. Oki answered in-thread ~9:05 PM under the 1:14 PM standing supplier-quote rule (stock + delivered 300/500 + lead time). 0 accepted written quotes.
+- 9:43 PM ET: Qstomize written reply (cork 4-pack $3.50/set at 50 or 500 sets, product only; DDP/IOR/sample/weights by Fri Oct 23). UNSCORED HOLD, not a delivered quote (coach run 39). J120 IE51 Desk Drop Kit $40 pro-forma YES on catalogue numbers, moat unverified, kill Oct 24, no buy. Audit 51 reset stand-in rows 242-246 to pip_verified=N.
 - Runs 23 (8:13 PM): Party draft routed then sent; J117 Tally stacking cap done (adopt/FIX owed); J118 Nepal felt window lean-KILL Option A (Venture silence by 9:15 = A stands); Kimi J119 audit queued; seats still silent; Spark stand-in #2 deferred (pipe blocked at countersign). Coach Flipper run 38 (~9:00 PM).
