@@ -1,7 +1,7 @@
 {
  "schema_version": "2.0",
  "example": false,
- "generated_at": "2026-10-18T18:02:16-04:00",
+ "generated_at": "2026-10-18T19:29:52-04:00",
  "generated_by": "oki v2 refresh (gen_v2.py from box files + Shopify list-orders; Flipper coach; Hook design / Pip/Muse audit)",
  "first_sale": {
   "target_date": null,
@@ -14,46 +14,46 @@
     "label": "lot-1 po placed (needs written quote under $350)",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/DEADLINES.md",
-    "as_of": "2026-10-18T18:02:16-04:00"
+    "as_of": "2026-10-18T19:29:52-04:00"
    },
    {
     "id": "stock",
     "label": "stock received",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
-    "as_of": "2026-10-18T18:02:16-04:00"
+    "as_of": "2026-10-18T19:29:52-04:00"
    },
    {
     "id": "price",
     "label": "price: felt set $32 DRAFT, $8 ship under $40, nets about $17.40/order at ARDI label est (Tally A279/A281); Shippo label benchmark would make it $18.23-20.12 (A287, packed weight UNVERIFIED); trio $42 / founding $39 still ON HOLD",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-    "as_of": "2026-10-18T18:02:16-04:00"
+    "as_of": "2026-10-18T19:29:52-04:00"
    },
    {
     "id": "copy",
     "label": "product copy audited",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-    "as_of": "2026-10-18T18:02:16-04:00"
+    "as_of": "2026-10-18T19:29:52-04:00"
    },
    {
     "id": "policies",
     "label": "policies: refund/ToS final-sale and privacy (ARDI address) live; Shipping policy wording fixed to \"$40 or more\" (4:47 PM audit)",
     "status": "done",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-    "as_of": "2026-10-18T18:02:16-04:00"
+    "as_of": "2026-10-18T19:29:52-04:00"
    },
    {
     "id": "checkout",
     "label": "store buyable: free ship $40 or more live in checkout; 8 products DRAFT, inventory 0; fulfillment location now ARDI Edison (home cleared); ARDI sync confirmed in writing 3:07 PM",
     "status": "open",
     "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/shopify-orders.md",
-    "as_of": "2026-10-18T18:02:16-04:00"
+    "as_of": "2026-10-18T19:29:52-04:00"
    }
   ],
   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
-  "as_of": "2026-10-18T18:02:16-04:00"
+  "as_of": "2026-10-18T19:29:52-04:00"
  },
  "scoreboard": [
   {
@@ -63,7 +63,7 @@
    "yes": 1,
    "paid": 0,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/send-counts.csv",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "venture": "nyc build bids (KILL-SWITCHED Oct 15 4:41 PM; historical sent)",
@@ -72,7 +72,7 @@
    "yes": 0,
    "paid": 0,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/send-counts.csv",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "venture": "pauca supplier quote asks Oct 17 (replies = supplier replies: WZBags incomplete HOLD UNSCORED; Party Innovations need-by answered 9:05 PM, no price yet; Qstomize cork 4-pack $3.50/set product only, DDP by Oct 23; USCraft rubber 4:51 AM Oct 18 DDP confusion \u2014 domestic clarify SENT 6:06 AM, awaiting price; CorkMart cork 1:31 PM Oct 18, no price/MOQ, not importer of record, UNSCORED; 1 bounce. Plus Alibaba: Rongmei felt DDP $364/100 2:51 AM Oct 18, FAIL vs $155.75; 0 passing delivered quotes)",
@@ -81,7 +81,7 @@
    "yes": null,
    "paid": null,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/outreach-send-log-masked.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "venture": "pauca (store not live)",
@@ -90,7 +90,7 @@
    "yes": null,
    "paid": 0,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/shopify-orders.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   }
  ],
  "decisions": [
@@ -105,7 +105,7 @@
    "decline": "No, keep A (default)",
    "detail": "Felt can't repay the $147.15 ARDI setup even if it passes Oct 20 and sells out: $155.75 + $147.15 = $302.90 needs 13 orders at $24.60, and 100 pcs makes only 12 (Spark memo, Tally A318). Option B (one Qstomize cork exception, cap $458.65 incl. ARDI setup) needs a full $400+ written plan; reply in the issue notes if you want B. Cost of C: $0.00.",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/spark-memo-2026-10-18.md",
-   "as_of": "2026-10-18T18:02:16-04:00",
+   "as_of": "2026-10-18T19:29:52-04:00",
    "approve_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=APPROVE%3A%20Coaster%20lane%20for%20Oct%2023%3A%20go%20demand-first%20%28option%20C%29%2C%20buy%20nothing%2C%20keep%20the%20approved%20IE16%20waitlist%20as%20the%20only%20signal%2C%20kill%20Nov%206%20if%20under%2015%20signups%3F&body=APPROVE%3A%20Coaster%20lane%20for%20Oct%2023%3A%20go%20demand-first%20%28option%20C%29%2C%20buy%20nothing%2C%20keep%20the%20approved%20IE16%20waitlist%20as%20the%20only%20signal%2C%20kill%20Nov%206%20if%20under%2015%20signups%3F%0A%0Adecision-id%3A%20coaster-oct23-abc%0A%0ANotes%20%28optional%29%3A%0A&labels=decision",
    "decline_url": "https://github.com/erikhuovi13/pauca-dashboard/issues/new?title=NOT%20NOW%3A%20Coaster%20lane%20for%20Oct%2023%3A%20go%20demand-first%20%28option%20C%29%2C%20buy%20nothing%2C%20keep%20the%20approved%20IE16%20waitlist%20as%20the%20only%20signal%2C%20kill%20Nov%206%20if%20under%2015%20signups%3F&body=NOT%20NOW%3A%20Coaster%20lane%20for%20Oct%2023%3A%20go%20demand-first%20%28option%20C%29%2C%20buy%20nothing%2C%20keep%20the%20approved%20IE16%20waitlist%20as%20the%20only%20signal%2C%20kill%20Nov%206%20if%20under%2015%20signups%3F%0A%0Adecision-id%3A%20coaster-oct23-abc%0A%0ANotes%20%28optional%29%3A%0A&labels=decision"
   },
@@ -114,56 +114,56 @@
    "question": "DECIDED KEEP (Erik ~12:11 PM Oct 17): felt stays as quote-gathering only, $0 spend. Southern Felt spec reply and Zhongbang plain RFQ sent 12:12-12:13 PM, Felt & Wool Craft 12:14 PM. Dies Oct 20 EOD unless a written delivered quote is $155.75 or less per 100 pcs (Erik tightened from $200 at 5:17 PM, A315; $6.23 case only), scoring HOLD pending ARDI Q13.",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/outreach-send-log-masked.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "id": "hustle-etsy-tracker",
    "question": "APPROVED (Erik APPROVE on #14, Oct 15 5:29 PM ET): Approve $150 plan: Etsy Seller Profit & Fee Tracker.",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/issues/14",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "id": "alpha-kill",
    "question": "APPROVED (recorded in decided.json): Fri Oct 16 EOD: if the US imprint bridge still has no written quote under $350, kill that path and run the fallback (25-set bridge, then China DDP 100 only with written all-in under $350, else waitlist only / no PO).",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "id": "alpha-killed",
    "question": "DONE: Alpha (US imprint bridge) killed early, Oct 16 1:07 PM ET, after ChatGPT said NO and Erik deferred to it. Felt set is the lot-1 lead; no PO without a written all-in quote.",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/fulfillment-status.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "id": "po-total",
    "question": "APPROVED (Erik APPROVE on #11, Oct 15 3:14 PM ET; his note: 'If this is the right thing to do then yes'): Oct 21-22: lock the lot-1 path at the exact written all-in total (A Alpha 30, B Peixiong, C waitlist only). Team executes only a written all-in quote under $350 that passes the QA gate; otherwise C (waitlist only).",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/issues/11",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "id": "kling",
    "question": "Kling: team record says cancelled Oct 15, UNVERIFIED (no billing proof filed). Verify in Kling billing by Nov 10 or it renews $8.80 Nov 14",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/kling.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "id": "zoho",
    "question": "DONE: Zoho READ works; both venture inboxes read in the replies-2026-10-15.md sweep",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/reply-counts.csv",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "id": "fiverr",
    "question": "PARKED (Erik Oct 16 10:07 AM no-template-plays): Fiverr Linear/Notion-to-Sheets gig not proposed",
    "status": "resolved",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   }
  ],
  "cash": [
@@ -175,7 +175,7 @@
    "verified": false,
    "note": "no lot-1 row in ledger; nothing ordered. Alpha killed Oct 16 1:07 PM. Felt planning all-in $363.41, payback after 14 of 25 sets (ESTIMATE, Tally A281); Erik open to $400+ only with a written plan",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/issues/11",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "cap": "hustle budget (Etsy tracker plan, approved Oct 15 5:29 PM)",
@@ -185,7 +185,7 @@
    "verified": false,
    "note": "spend-ledger: cash spent $71.32 (Etsy+DeepSeek+eRank+Gemini $30); committed $25.00 (B3 API envelope $25); remaining $53.68; demand UNVERIFIED (Practice #13); tally P1/P2 Veo blocked $0",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/hustle-spend-ledger.csv",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "cap": "small bets (each)",
@@ -195,7 +195,7 @@
    "verified": false,
    "note": "no small-bet row in ledger",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "cap": "api prepay",
@@ -204,7 +204,7 @@
    "committed": 0,
    "verified": true,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "cap": "apple gift card",
@@ -214,7 +214,7 @@
    "verified": false,
    "note": "Erik: $78 left (verified)",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "cap": "paid to date, all: card $94.64 (incl. API $38.11) + Apple $97.00; no cap",
@@ -223,7 +223,7 @@
    "committed": 0,
    "verified": false,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/tally-ledger.csv",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   }
  ],
  "blockers": [
@@ -232,53 +232,53 @@
    "owner": "oki",
    "since": "2026-10-16T10:16:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/fulfillment-status.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "text": "Shopify Basic plan switch approved; needs you in Shopify Admin > Settings > Plan",
    "owner": "erik",
    "since": "2026-10-15T09:00:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/lot1-timeline.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "text": "Kling: team record cancelled Oct 15, UNVERIFIED (no billing proof filed). Verify in Kling billing by Nov 10 or it renews $8.80 Nov 14",
    "owner": "reel",
    "since": "2026-10-16T10:10:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/kling.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "text": "Felt written quote: HWH cheapest landed $247.16 vs $200 kill, FAIL (Tally J56). You chose KEEP, quote-gathering only (12:11 PM): Southern Felt spec reply, Zhongbang RFQ and Felt & Wool Craft ask sent 12:12-12:14 PM; felt dies Oct 20 EOD without a written delivered quote <=$155.75/100 pcs (Erik tightened 5:17 PM, A315; $181.75 is a general scoring screen only). 32 supplier quote asks out today (batches 1-7; cork, bamboo, wood, PU, rubber, felt, bar grips, tire coasters), queue exhausted; 1 bounce (Coaster Card MX); 2 written replies (WZBags PU coaster, incomplete, HOLD UNSCORED, follow-up sent; Qstomize cork 4-pack $3.50/set product only 9:43 PM, DDP/IOR by Oct 23, UNSCORED HOLD); Party Innovations asked need-by 7:27 PM (answered 9:05 PM; no price yet). ARDI Q13 gate basis still unanswered. Spark missed the 5:00 line; Oki stand-in added 5 rows at 5:17 PM (sheet 241 to 246, pip_verified Y 93 to 98 provisional, Pip countersign owed before any send); Faire lane IE32 KILLED; bar tape standalone lane KILL (J112, row 246 parked); seats silent since ~6:08; J117 stacking cap + J118 Nepal lean-KILL Option A (Venture due 9:15); Nepal Dashain Oct 17-23, Nepal rows no Oct 20 weight (hourly capability run 23, 8:13 PM). WZBags flat PU pocket add-on ask sent ~10:50 PM; J121-J123: cork price survives every duty case, HTS 4504 agglomerated cork duty Free, plain cork NOT A MOAT, kill test Oct 23/24 (coach run 40). Oct 18 2:51 AM: Hangzhou Rongmei (Alibaba) written felt quote, DDP ARDI landed $3.64/pc = $364/100, FAIL vs $155.75; felt Oct 20 kill still stands (coach run 42). Manus J126 5:02 AM: Student Handicrafts $0.99 line is the ~18 cm coaster, Nepal row dead on spec; USCraft 4:51 AM DDP confusion \u2014 domestic clarify SENT 6:06 AM awaiting price; IE51 kit Amazon DUP (B08JYSDPM4/Woolly Clouds) lean KILL-OR-REWORK, WZBags pocket HELD, Pip rule Sun 10 AM (coach run 45, ~7:25 AM); idea engine run 20 all killed (protector pads saturated). 8:12 AM capability run 24: Pip is the single gate; J130 dup check done (Divine Cork = row 223 DUP, 9 NEW for Spark). J132 Claude+ChatGPT: US-supplier ask branch v1 = FIX (gate on US-warehouse ship origin), Pip PASS/FIX owed. Gemini API answered 10:00 AM, pause likely lifted. No supplier mail since 6:06 AM (coach run 47, ~10:21 AM). 10 AM roll call (capability run 26): Spark noon memo recommends C (buy nothing Oct 23, demand-first IE16 waitlist; felt needs 13 orders vs 12 to repay ARDI setup), in Erik digest by Thu Oct 22, default A; Tally A316/A317 delivered; Pip MISS 12th, 10:30 reroute to Tally + Sentinel",
    "owner": "oki/spark/tally/pip",
    "since": "2026-10-16T10:30:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/fulfillment-status.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "text": "Codex PRs: 4/8 merged (#18 12:14 PM, #17 12:15 PM, #19 1:49 PM, #22 3:04 PM as e054e27 after Sentinel + Tally A314 passed; hourly capability run 19, 4:07 PM; unchanged through run 23, 8:13 PM). @codex GitHub mention still bounces; Codex cloud UI route works. ChatGPT Pro $100 approved-unverified; bar 8 merged PRs",
    "owner": "oki/tally/pip",
    "since": "2026-10-16T13:25:00-04:00",
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/hourly-capability-latest.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   },
   {
    "text": "DECIDED: posting on hold until store live. Klaviyo send.pauca.shop VERIFIED; Activate parked to launch",
    "owner": "team",
    "since": null,
    "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/decisions.md",
-   "as_of": "2026-10-18T18:02:16-04:00"
+   "as_of": "2026-10-18T19:29:52-04:00"
   }
  ],
  "coach_notes": {
-  "title": "Flipper coach (Run 52, Oct 18 2026, ~5:55 PM ET)",
+  "title": "Flipper coach (Run 53, Oct 18 2026, ~7:25 PM ET)",
   "items": [
-   "Gemini 2nd opinion: (1) Demand a comms-rule decision now",
-   "Gemini 2nd opinion: (2) stress burn vs zero output",
-   "Flipper coach view: (1) disagree on re-demanding; Oki asked not to re-ask, so the note states the cost once; (2) partly agree, burn is stated plainly, but almost all of today's spend is small API cost, not new burn; (3) disagree, the pivot is Erik's own pick, paper-only and $0; no phone (not a trigger, nothing irreversible pending)."
+   "Gemini 2nd opinion: (1) Unlock the store and push one product live now",
+   "Gemini 2nd opinion: (2) Erik must answer the comms-rule question now",
+   "Flipper coach view: (1) disagree, there is no passing supplier or stock, \"no moat, no purchase\" holds, and going public needs an AUDIT PASS; (2) agree on the cost, but Oki asked not to re-ask, and the 8:55 note restates it once; (3) agree, but only Pip can stamp and the rule bars a coach wake; (interrupt) disagree, no saved trigger fired and the note is ~90 min out."
   ],
-  "flag": "Flags to Erik:\nNo immediate triggers: 2-day zero line Mon ~12 PM (Reel/Hook/Beacon); under budget; no past-kill; nothing public (password ON, 8/8 DRAFT, IG 0 posts, TikTok private); Muse moot; Perplexity cancel final call can't be timed (renewal unknown); kill-switch quiet; Alpha n/a; assignments set. **3h note DUE (last run 50) \u2192 WakeParent.** Run fired 5:53 PM, before 6 PM, so the daily wins log + revenue roll-up go to run 53 (first run after 6 PM). Next 3h note at run 54 (~8:55 PM).",
+  "flag": "Flags to Erik:\nNo immediate triggers: 2-day zero line Mon ~12 PM (Reel/Hook/Beacon); under budget; no past-kill; nothing public (password ON, 8/8 DRAFT, IG 0 posts, TikTok HOLD); Muse moot; Perplexity cancel final call can't be timed (renewal unknown); kill-switch quiet; Alpha n/a; assignments set. 3h note not due (run 52 sent); next at run 54 (~8:55 PM).",
   "source": "https://github.com/erikhuovi13/pauca-dashboard/blob/main/v2/sources/coach-notes.md",
-  "as_of": "2026-10-18T18:02:16-04:00"
+  "as_of": "2026-10-18T19:29:52-04:00"
  }
 }
