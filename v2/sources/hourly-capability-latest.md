@@ -1,28 +1,30 @@
-# Hourly capability brief — Oki → Flipper (Sun Oct 18, ~10:14 AM ET, run 26)
-Goal: pauca live on Shopify, all in, Etsy CUT. "No moat, no purchase." APPROVALS: reversible + ≤$25 self-approve. Gates stay: pip_verified=Y + MX-pass before first send, Sentinel Q8, no invented data, no purchases. Felt quote-only, **Tue Oct 20 kill at written DELIVERED ≤$155.75/100 — still 0 passing** (~32h left). Oct 23 buy-nothing line; Qstomize DDP lands same day. Revenue $0, 0 orders (8 DRAFT, inv 0). Erik's attention is on the finance/sports/markets pivot today — coaster lane runs on the team.
+# Hourly capability brief — Oki → Flipper (Sun Oct 18, ~11:08 AM ET, run 27)
+Goal: pauca live on Shopify, all in, Etsy CUT. "No moat, no purchase." APPROVALS: reversible + ≤$25 self-approve. Gates stay: pip_verified=Y + MX-pass before send, Sentinel Q8, no invented data, no purchases. Felt quote-only, **Tue Oct 20 kill at written DELIVERED ≤$155.75/100 — still 0 passing** (~31h left; Rongmei $364 KILL). Oct 23 buy-nothing line (A/B/C with Erik by Thu, default A). Revenue $0, 0 orders (8 DRAFT, inv 0). Erik is on the finance/sports/markets pivot today.
 
-## 10 AM roll call result (as of 10:14)
-- **Spark: BACK** — noon decision memo filed 10:14 (ceo/shopify-restart/spark-noon-memo-2026-10-18.md): recommends C (buy nothing Oct 23, go demand-first on the IE16 waitlist, kill Nov 6 <15 signups). Key math: felt can't repay ARDI setup even at a sellout (13 orders needed, 100 pcs = 12). Oki put the A/B/C call in Erik's digest (due Thu, default A). Not a ping.
-- **Tally: DELIVERED** — A316 margin watch (Rongmei $364/100 KILL, Chengda glow math-only, Qstomize unscored), A317 J117/J118 countersigns (J118 lean-kill A countersigned; "written delivered" = landed at ARDI Edison incl duty+MPF+brokerage). Owed: Oct 23 Qstomize score row, gate-4 count refresh.
-- **Pip: MISS 12th** (last own file ~3 PM Sat). **Sentinel, Venture, Beacon, Hook, Reel: silent** since Sat ~12 PM–3 PM.
-- Crew 10:03: J133 pivot ideation, J134 + J134b data-source map + Claude fact-check, J135 Kimi rules red-team all DONE → Oki pivot shortlist. J136 Manus deferred (day cap, after 3 PM). **Gemini answered at 10:00 ($0.0515)** → pause looks lifted; digest item marked likely-resolved.
+## Since run 26 (10:14)
+- **Tally DELIVERED A318** (Spark memo read: 13 lot-only / 19 with setup CORRECT; felt 13 needed vs 12 max CONFIRMED; Nov 6 rate rule = signups ≥ max(15, 10% of visits) AND visits ≥150). Still owes Shivani / JobaidaPack / Divine Cork UNSCORED lines.
+- **Pip partial** (MISS streak ends at 12): Option C copy read PASS-WITH-FIXES 10:17, fixes applied. Still owes all 4 gate items.
+- Audit 60: **IE51 PROVISIONAL KILL by Oki** (kit-level Amazon dup) — Pip confirms/overturns in one line.
+- 10:30 reroute **did not fire** (no Sentinel file; Tally took the memo read instead). Sentinel, Venture, Hook, Beacon, Reel still silent (19–23h).
+- Crew 11:04: J137 keeper #1 moat WEAK-but-KEEP (7-day $0 proof); J138 PFOF NO-MOAT, PARKED.
 
-## One play per seat (push to full power)
-- **Pip (top, 10:30 reroute armed):** same 4 rulings — US branch v2 PASS/FIX (~5 min, J132 did the research), IE51 DUP/CLEARABLE, rows 242–246 countersign, J130 rows 247–255. Plus 30-min pre-clear on Spark's memo (silence = pass). Underused: crew audits as pre-reads; rule from them, don't redo them.
-- **Spark:** pair with **Tally** — Tally countersigns memo math (12 vs 13 orders, $458.65 B cap) inside 30 min; then Spark pre-builds the Oct 23 cork scoring cell with Tally so the day-of verdict is one number. Underused: Spark's own Claude/Kimi API calls (memo proved them) — use them for the IE52 FitLiner dup check (due 1 PM) instead of waiting on Oki's crew.
-- **Tally:** countersign Spark memo; Oct 23 Qstomize row; refresh LAUNCH-READINESS gate 4 (usable landed 0). Pair with Beacon: set the signups-per-visit threshold Spark's BRILLIANT asks for (proposal only, no invented baseline).
-- **Venture:** Oct 20 felt kill card — Spark's 12-vs-13 orders result + Tally A317 make it a one-liner: felt dies Tue, no Nepal exception. Countersign Spark's "plain cork NOT-A-MOAT" framing.
-- **Sentinel:** frames A/B/C + drawing v3 PASS (~17h owed); co-gate US branch v2 with Pip; flag IE16 copy is felt-specific — must go material-neutral after Oct 20 (Spark's copy flag). Pair with **Hook** on that rewrite.
-- **Beacon:** IE44 file (n≥30 / Nov 6) and take Spark's BRILLIANT: define the waitlist demand metric (signups ÷ page visits from IG post 1) and the Oct 25 "traffic source posted" check.
-- **Hook:** material-neutral IE16 waitlist headline + 1-line sub (felt word out), with Sentinel; J114 captions with Reel.
-- **Reel:** J114 10-second cut from frames A/B/C. 2-day zero line ~12 PM Mon.
+## One play per seat (underused capability or pairing)
+- **Pip (top):** US branch v2 PASS/FIX (~5 min) → IE51 confirm (one line) → 242–246 → 247–255. Underused: rule from crew audits (J132, J129 ASINs) as pre-reads; don't redo research. Pair with **Tally** as second seat on 242–246 if not done by 12:30.
+- **Tally:** close the 3 UNSCORED catalog lines; pre-build the Oct 23 Qstomize scoring cell with **Spark** so the day-of verdict is one number. Underused: DeepSeek for the Wilson-table / sample-size math (J103 still partial) — finish it.
+- **Spark:** IE52 FitLiner dup check by 1 PM using own Claude/Kimi calls; run-59 TAKE-OFF (Shri Radhika / Bamboo & Co contacts, row 223 note, ≤5 catch-up adds, ≥30% India/SE-Asia). Pair with **Venture** on pivot fit (below).
+- **Venture:** Oct 20 felt kill card as a one-liner (A317 + A318 = felt dies Tue, no Nepal exception). Pivot gap: Codex's #8 note says Erik's direction includes **collectibles, niche hedging/lending, financial engineering** — shortlist v2 has none. With **Spark**, moat-screen 2–3 such lanes (desk only, $0) for the pivot file; Erik owns the pick.
+- **Sentinel:** frames A/B/C + drawing v3 PASS (~18h owed); co-gate US branch v2 with Pip. Pair with **Hook** on the material-neutral IE16 copy (felt word out after Oct 20). If silent by noon → Pip does a read-only frames check, flagged.
+- **Hook:** material-neutral IE16 headline + 1-line sub (with Sentinel); J114 captions with Reel. Underused: Claude for 5 headline variants, Gemini blind-QC to pick.
+- **Beacon:** instrument the denominator — Tally's rule needs unique waitlist-page visitors (currently UNKNOWN/uninstrumented, AUDIT-C1). Propose the $0 counter (Shopify analytics sessions on the page, or UTM on IG post 1) + IE44 file. Pair with Tally on the threshold wording.
+- **Reel:** J114 10-second cut from frames A/B/C; Gemini is answering again — use it for blind QC ≥8/10. 2-day zero line ~12 PM Mon.
 
 ## Roadblocks > 1h → who clears
-1. **0 passing delivered felt quotes (~38h).** Outside, Sunday. **OKI** inbox keeper 1:30; felt-only nudge Sun ~8 PM. Spark math says felt death costs nothing worth keeping.
-2. **ARDI Q13 gate basis (~24.5h).** Outside. **OKI** watches; HOLD-basis scoring meanwhile.
-3. **Pip queue — US branch v2 (~1h), IE51 (~3.8h), 242–246 (~16h).** **PIP**; 10:30 silence → **TALLY + SENTINEL** second-seat (Tally already active today). Oki does not self-countersign.
-4. **Sentinel frames + drawing v3 (~17h).** **SENTINEL**; if silent by noon, **PIP/TALLY** read-only check, flagged.
-5. **6 of 8 human seats silent 18–22h.** **FLIPPER**: 10:30 reroute; Spark + Tally proved the wake works.
-6. With Erik already, no re-ping: ARDI $147.15 held for stock buy, IG post-1, Keyword Planner, YouTube API key, Perplexity cancel (~4:21 PM). NEW in digest (not urgent): Spark A/B/C by Thu Oct 22.
+1. **0 passing delivered felt quotes (~39h).** Outside, Sunday. **OKI** inbox keeper 1:30; felt-only nudge Sun ~8 PM. Felt death costs nothing worth keeping (A318).
+2. **ARDI Q13 gate basis (~25.5h).** Outside. **OKI** watches; HOLD-basis scoring meanwhile.
+3. **Pip gate queue — US branch v2 (~2h), IE51 (~4.8h, provisional kill on file), 242–246 (~17h), 247–255.** **PIP**; 12:30 second seat **TALLY**. Nothing is waiting on US branch v2 today (no US ask queued). Oki does not self-countersign.
+4. **Sentinel frames + drawing v3 (~18h).** **SENTINEL**; noon fallback **PIP** read-only.
+5. **5 seats silent 19–23h (Sentinel, Venture, Hook, Beacon, Reel).** **FLIPPER**: direct wake per seat with the one play above; 10:30 reroute missed, re-arm for 12:00.
+6. **Waitlist visits denominator uninstrumented** (new, blocks Nov 6 verdict quality). **BEACON** proposes, **SENTINEL** checks, no Shopify write without Oki.
+7. With Erik already, no re-ping: ARDI $147.15 held for stock buy, IG post-1, Keyword Planner, YouTube API key, Perplexity cancel (~4:21 PM), Spark A/B/C (Thu Oct 22).
 
-Cleared by Oki this run: Gemini digest item marked likely-resolved (API answered 10:00); Spark decision routed to digest. **No Erik ping.**
+Cleared by Oki this run: Coach's "drop 'if paused, skip' from Gemini stages" — checked ai-crew/queue.json, no open job still carries that text (only done J134; J134b already reran on Claude) → STALE, nothing to edit. **No Erik ping.** $0, no sends.
