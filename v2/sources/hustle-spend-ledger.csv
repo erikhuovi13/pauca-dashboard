@@ -80,3 +80,4 @@ date,item,type,amount,source
 2026-10-18,API est master-team idea engine run20,api_est,0.3906,master-team/idea-engine/run-2026-10-18-0615 ESTIMATE
 2026-10-18,API est master-team idea engine run21 (backfill; degraded: DeepSeek scan + Kimi critique),api_est,0.1719,master-team/idea-engine/run-2026-10-18-0915 ESTIMATE
 2026-10-18,API est master-team idea engine run22 (degraded: DeepSeek scan + Kimi critique),api_est,0.1722,master-team/idea-engine/run-2026-10-18-1215 ESTIMATE
+2026-10-18,API est master-team idea engine run23 (degraded: DeepSeek scan + Kimi critique),api_est,0.1461,master-team/idea-engine/run-2026-10-18-1515 ESTIMATE
