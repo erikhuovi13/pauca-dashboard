@@ -1,5 +1,23 @@
 # A319 — ARDI Q13 gate restate + Triumph Gifts ESTIMATE score — Mon Oct 19, 2026 ~8:52 AM ET (Tally)
 
+> **A320 CORRECTION — Mon Oct 19, 2026 (Tally, files only, NO sends/contact/purchase/Shopify; asserts `minus-discovery/tally/a320_q13_correction_asserts.py` ALL PASS):**
+> **1. Q13-rate flag UPGRADED:** The fulfillment-stack check read ARDI's original email directly (Gmail thread **1a13624ffd4cdd34**) and it matches the A319 cited summary word-for-word (Oki relay of that check). Q13 rates in §1 are therefore **VERIFIED — source: fulfillment-stack-check direct read of thread 1a13624ffd4cdd34, reported via Oki; Tally did NOT read Gmail directly.** AUDIT: that distinction matters for audit trail (second-hand verification, same precedent as Pip-verbatim in A319) but does NOT keep the rates UNVERIFIED — a direct reader confirmed them. The §0/§1 "UNVERIFIED relay" labels below are superseded for Q13 items (unload, storage, $2/unit returns-only receiving, kitting $1.45/4-pack, 2-pack $1.50+$0.40 pre-made, labels at Shopify rates, $1/photo publish rights). **Insert conflict $0.50 vs $0.40 STANDS OPEN (UNKNOWN which applies).**
+> **2. Packaging CORRECTED:** ARDI says only poly bags are needed (via Oki). Packaging stack line **$0.94 ESTIMATE → $0.03/order**. Label precisely: the **$0.03 mailer/poly unit price is VERIFIED-quoted** (ARDI written $0.03 mailer, Gmail 1a1461cf5850bfc1, Oct 16, cited A316/lane-confirm); its adoption here as the **full per-order packaging charge is ESTIMATE** (poly-bag-only need is Oki-relayed from ARDI; completeness — no other packing/box fee — was the open J93 Q3 and is not separately written in the Q13 summary). Do not over-claim as VERIFIED full-packaging. Receiving: **$2/unit is returns-only; the $1.10/order receiving line stays UNVERIFIED fail-closed, unchanged** (removal sensitivity +$0.55/set, A319, not adopted).
+> **3. Ceiling — CONFIRM floor, CORRECT exact:** Oki's ~$5.76/$144.00 is **CONFIRMED as the enforceable cent-floor**. Exact Decimal: old ARDI-kitted N=15 exact $5.3121 + $0.4550 lift ($0.91/2 sets, ΔL=−ΔS/2 with 1.03 factor) = **exact $5.7671/set** → cent-floor **$5.76/set**; enforceable per-100 = 25×$5.76 = **$144.00/100**; exact per-100 = **$144.18/100** ($144.1780). Oki's "$5.765" is floored-base arithmetic ($5.31+$0.455), not the exact ceiling — use $5.7671 exact / $5.76 enforced. New ARDI-kitted stack S = $15.79 − $0.91 = **$14.88/order ESTIMATE** (label $8.95 UNVERIFIED, receiving $1.10 UNVERIFIED unchanged inside it).
+> **Restated ceilings with $0.03 packaging (cent-floor → /100 enforced; all ESTIMATE):**
+
+| Named case | ARDI-kitted S=$14.88 | Factory pre-kitted S=$11.98 |
+|---|---:|---:|
+| 25/25, 1 mo (N=25) | $6.80 → $170.00/100 | $8.25 → $206.25/100 |
+| **N=15, 1 mo (operative, fail-closed)** | **$5.76 → $144.00/100** (exact $5.7671 / $144.18) | $7.21 → $180.25/100 |
+| 100/100, 2 mo (N=100) | $7.67 → $191.75/100 | $9.12 → $228.00/100 |
+| N=50, 1 mo | $7.57 → $189.25/100 | $9.02 → $225.50/100 |
+| N=50, 2 mo | $6.99 → $174.75/100 | $8.44 → $211.00/100 |
+| N=25, 2 mo | $5.63 → $140.75/100 | $7.08 → $177.00/100 |
+
+> **4. Impact:** Felt **unchanged** — dies Tue Oct 20; Erik's kill line stays **$155.75/100 as set** vs restated operative now **$144.00/100** (gap widened $155.75→$132.75→$144.00 basis; Erik has the call; do not silently move the kill line). **Triumph: Oki's "fails both" is CORRECTED at the low end — see §7 note / Triumph file A320.** A319 §7 "FAIL at every point" applied to $5.31 only and no longer stands under $5.76.
+
+
 Files only. NO sends/contact/purchase/Shopify. Decimal asserts: `minus-discovery/tally/a319_q13_restate_asserts.py` — ALL ASSERTS PASS.
 Labels: VERIFIED = written/live source read by Tally/Pip; ESTIMATE = computed from labelled inputs; UNVERIFIED = relay/no written basis read; UNKNOWN = no value. Every number below carries one.
 
@@ -96,3 +114,15 @@ Which applies = **UNKNOWN**. Insert is unused until a stock buy (audit 73); ceil
 - AUDIT-4: Kill line $155.75 NOT moved despite restated $132.75 operative ceiling — Erik/Oki decision flagged in DEADLINES Oct 20 header note.
 - AUDIT-5: Insert $0.40/$0.50/$0.90 all priced; which applies UNKNOWN.
 - AUDIT-6: Fee $1.46 rate, label $8.95, packaging $0.94 remain UNVERIFIED/ESTIMATE as before; Q13 did not settle them.
+
+
+## A320 addendum (supersedes §1 labels, §3 packaging row, §4 ARDI/factory columns, §7 verdict where they conflict; history above preserved)
+- Q13 rates: VERIFIED via fulfillment-stack-check direct read of Gmail 1a13624ffd4cdd34 (via Oki; not Tally-direct). Insert $0.50/$0.40 UNKNOWN stands.
+- Packaging row in §3: $0.94 → $0.03 (price VERIFIED-quoted ARDI $0.03 mailer 1a1461cf5850bfc1; full-charge adoption ESTIMATE). Stacks: ARDI-kitted $14.88, factory $11.98.
+- Operative fail-closed ceiling: $5.76/set enforced ($144.00/100), exact $5.7671 ($144.18/100). Receiving $1.10 UNVERIFIED fail-closed unchanged.
+- Triumph range vs new operative: $5.72 low end **passes ESTIMATE-only** at the new ceiling (without die-cut, IF DDP $65 maps to 500 pcs and stacks — both UNKNOWN); $6.36 w/die, $6.72, $7.36 all FAIL. Range straddles the ceiling; it is NOT a written landed quote, usable landed = 0, HOLD unchanged. See `tally-triumph-score-2026-10-19.md` A320.
+
+---
+> **SPARK GATE STAMPS POINTER — 2026-10-19 (append-only, history above not rewritten):** Tally A322 FIX + Pip FIX on Spark's 2026-10-19 gate memo filed. Adopted scoring state (all ESTIMATE, basis `N=15, 1 month, $30 storage` on every score): ARDI-assembled $5.31/set ($132.75/100) ENFORCED; factory-sealed $6.76/set ($169.00/100); delta $1.45/set = ARDI kitting. $5.76/$7.21 CONDITIONAL until ARDI confirms poly-bag price, bags/order, and whole packaging charge in writing ($0.03 = mailer-quoted VERIFIED; poly-bag price/bags UNVERIFIED) — A320 $0.03-as-operative DEMOTED, **Tally countersign of Pip F1 wording PENDING**. Silent quote = UNSCORED-HOLD (Pip F4, governing pending countersign), NOT passed at $5.31, until supplier writes ship form AND ARDI writes loose-bulk acceptance; ESTIMATE-only quotes not scored. Storage $30 UNVERIFIED (Q13 no re-confirm) vs $40 VERIFIED public (−$0.65/set floored); N=50 +$1.81/set floored only if pallet billing applies to sub-pallet lot, else UNKNOWN; 8-pc $6.96 out until ARDI confirms. Felt $155.75 kill Tue + Triumph ESTIMATE-only/usable landed 0 unchanged. Rim-drape KILL = team decision J174/J175, 1 PM video cancelled. Sources: `ceo/shopify-restart/tally-spark-gate-memo-pass-2026-10-19.md`, `ceo/shopify-restart/pip-spark-gate-verify-2026-10-19.md`; full log: `minus-discovery/team-comms-log.md`.
+
+> **A323 COUNTERSIGN — RESOLVED 2026-10-19 (append-only):** Pip F1 countersigned — A320 operative $5.76/set ($144.00/100) DEMOTED to CONDITIONAL; operative $5.31 ARDI-kitted ($132.75/100) / $6.76 factory-sealed ($169.00/100), basis 'N=15, 1mo, $30 storage' ($30 UNVERIFIED vs $40 VERIFIED; ESTIMATE), $5.76/$7.21 conditional until ARDI writes poly-bag price/bags/completeness; F4 silent = UNSCORED-HOLD; adoption = A323 + Audit 75. Source: `ceo/shopify-restart/tally-pip-gate-countersign-2026-10-19.md`; log: `minus-discovery/team-comms-log.md`.

@@ -1,10 +1,10 @@
-# Flipper coach notes (Run 62, Oct 19 2026, ~8:55 AM ET)
+# Flipper coach notes (Run 63, Oct 19 2026, ~10:25 AM ET)
 Excerpt from /workspace/coach/coach-log.md.
 
 Top ideas for the dashboard:
-- Gemini 2nd opinion: (1) Move the kill line to $132.75
-- Gemini 2nd opinion: (2) stop sending coaster asks, the category is dead
-- Flipper coach view: (1) moot for felt (0 quotes under either line, dies Tue), but Erik should say whether $132.75 is the screen for future coaster quotes; asked in the note; (2) partly agree: the 3 asks cost $0 and are out; no new coaster batch until one returns a written delivered quote under $132.75; (3) agree, stays first in the note.
+- Gemini 2nd opinion: (1) Kill Reel/Hook/Beacon now
+- Gemini 2nd opinion: (2) Spark's gate is a distraction
+- Flipper coach view: (1) disagree on early kill — capability 39 already assigns alive-line plays and DORMANT marks land at 12:20 if silent; (2) partly agree revenue path matters more, but Option C is $0 and prevents Friday mis-scores, so adopt pending Tally countersign; (3) agree it's the top Erik decision, already in prior notes, restated in run 64's 3h note — not an interrupt this run.
 
 Flags to Erik:
-No immediate triggers: 2-day zero line ~12:10–12:16 PM (Reel/Hook/Beacon) — run 64 (~11:55) is just before; raise at run 65 or as imminent in 64; under budget; no past-kill (felt Tue Oct 20, pivot Oct 25); nothing public; Muse moot; Perplexity cancel call can't be timed; kill-switch quiet (supplier sends are ops under standing rule); Alpha n/a; assignments set. **3h note DUE (last run 60) -> WakeParent.** Next 3h note run 64 (~11:55 AM). Monday spend-vs-payback check: this run is 8:55 (before 9 AM) -> do it at run 63 (~10:25 AM).
+No immediate triggers: 2-day zero line ~12:10–12:16 PM (Reel/Hook/Beacon) — **~1.75h out**; raise at run 64 if still silent or as imminent; under budget; no past-kill (felt Tue Oct 20, pivot Oct 25); nothing public (password ON, 8/8 DRAFT, IG 0 posts, TikTok HARD HOLD); Muse moot; Perplexity cancel call can't be timed; kill-switch quiet (0 sends from kill-switched ventures; supplier asks are ops under standing rule); Alpha n/a; assignments set. 3h note not due (run 62 sent); next at run 64 (~11:55 AM). Monday spend-vs-payback DONE this run.

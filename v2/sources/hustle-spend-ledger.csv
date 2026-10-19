@@ -84,3 +84,4 @@ date,item,type,amount,source
 2026-10-18,API est master-team idea engine run24 (degraded: DeepSeek scan + Kimi for Claude leg [Anthropic day guard] + Kimi critique),api_est,0.0964,master-team/idea-engine/run-2026-10-18-1815 ESTIMATE
 2026-10-18,API est master-team idea engine run25 (degraded: DeepSeek scan + Kimi for Claude leg [Anthropic day guard] + Gemini critique),api_est,0.2039,master-team/idea-engine/run-2026-10-18-2115 ESTIMATE
 2026-10-19,API est master-team idea engine run26 (DeepSeek scan + Claude + ChatGPT + Gemini critique),api_est,0.2566,master-team/idea-engine/run-2026-10-19-0015 ESTIMATE
+2026-10-19,API est master-team idea engine run29 (red-team rim-drape survivor: Claude + ChatGPT + Gemini critique; no scan),api_est,0.1456,master-team/idea-engine/run-2026-10-19-0915 ESTIMATE
