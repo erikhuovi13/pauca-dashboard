@@ -82,3 +82,4 @@ date,item,type,amount,source
 2026-10-18,API est master-team idea engine run22 (degraded: DeepSeek scan + Kimi critique),api_est,0.1722,master-team/idea-engine/run-2026-10-18-1215 ESTIMATE
 2026-10-18,API est master-team idea engine run23 (degraded: DeepSeek scan + Kimi critique),api_est,0.1461,master-team/idea-engine/run-2026-10-18-1515 ESTIMATE
 2026-10-18,API est master-team idea engine run24 (degraded: DeepSeek scan + Kimi for Claude leg [Anthropic day guard] + Kimi critique),api_est,0.0964,master-team/idea-engine/run-2026-10-18-1815 ESTIMATE
+2026-10-18,API est master-team idea engine run25 (degraded: DeepSeek scan + Kimi for Claude leg [Anthropic day guard] + Gemini critique),api_est,0.2039,master-team/idea-engine/run-2026-10-18-2115 ESTIMATE
